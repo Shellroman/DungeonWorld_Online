@@ -1,0 +1,34 @@
+Dungeon World Online v1.0.0 — Final replacement upload checklist
+
+Version/tag: v1.0.0 (DO NOT change)
+Schema: 20
+BUILD_ID: bbf02338d0f83dc9
+
+GitHub existing v1.0.0 Release:
+[ ] Keep tag/title as v1.0.0 / Dungeon World Online v1.0.0
+[ ] Delete the OLD release assets with the same names
+[ ] Upload DungeonWorld_Online_v1.0.0.exe
+[ ] Upload DungeonWorld_Online_v1.0.0_Release.zip
+[ ] Upload DungeonWorld_Online_v1.0.0_SHA256SUMS.txt
+[ ] Replace the Release body with GITHUB_RELEASE_BODY_KO_EN.md
+[ ] Confirm the Release body shows BUILD_ID bbf02338d0f83dc9
+[ ] Keep Pre-release OFF and Latest release ON
+
+GitHub repository source:
+[ ] Replace/update repository files using DungeonWorld_Online_v1.0.0_Source.zip
+[ ] Confirm VERSION remains 1.0.0
+[ ] Confirm BUILD_ID is bbf02338d0f83dc9
+
+itch.io:
+[ ] Replace the old main download with DungeonWorld_Online_v1.0.0_Release.zip
+[ ] Ensure "Hide this file and prevent it from being downloaded" is OFF
+[ ] Platform: Windows
+[ ] Page text: ITCHIO_PAGE_TEXT_KO_EN.md
+[ ] Verify the downloaded file hash against DungeonWorld_Online_v1.0.0_SHA256SUMS.txt
+
+Final smoke check:
+[ ] Extract the Release ZIP into a new folder
+[ ] Start DungeonWorld_Online_v1.0.0.exe
+[ ] Check /api/ping reports version 1.0.0, schema 20, BUILD_ID bbf02338d0f83dc9
+[ ] Test English default language and Korean switch
+[ ] Test one GM host and one browser player join
