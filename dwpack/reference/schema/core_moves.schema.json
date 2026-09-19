@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DWPack core moves",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uid",
+      "name",
+      "data"
+    ],
+    "properties": {
+      "uid": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "data": {
+        "type": "object"
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DWPack spells",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uid",
+      "name",
+      "class_name",
+      "level",
+      "desc"
+    ],
+    "properties": {
+      "uid": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "class_name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "level": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          {
+            "type": "string",
+            "minLength": 1
+          }
+        ]
+      },
+      "desc": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

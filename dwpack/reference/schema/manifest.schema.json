@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dungeon World Online DWPack Manifest",
+  "type": "object",
+  "required": [
+    "format",
+    "format_version",
+    "name"
+  ],
+  "properties": {
+    "format": {
+      "const": "dungeonworld-data-pack"
+    },
+    "format_version": {
+      "const": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "created_with": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "contents": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

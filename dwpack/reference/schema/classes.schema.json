@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DWPack classes",
+  "$defs": {
+    "moveEffect": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "spell_grant",
+            "spell_level_reduce",
+            "spell_zero",
+            "move_grant",
+            "class_access",
+            "opposite_race_feature"
+          ]
+        },
+        "source_class": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "target_class": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "spell_name": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "choice_group": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "restriction_note": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "amount": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "exclude_unclassified": {
+          "type": "boolean"
+        },
+        "all_classes": {
+          "type": "boolean"
+        },
+        "grant_moves": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "maxLength": 200
+          }
+        },
+        "race_pair": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "maxLength": 120
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "move": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "desc": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "has_requirement": {
+          "type": "boolean"
+        },
+        "requires_move": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "move_effects": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "$ref": "#/$defs/moveEffect"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "classData": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "damage": {
+          "type": "string"
+        },
+        "load": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "start": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/move"
+          }
+        },
+        "a25": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/move"
+          }
+        },
+        "a610": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/move"
+          }
+        },
+        "multiclass_25": {
+          "type": "boolean"
+        },
+        "multiclass_610": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uid",
+      "name",
+      "data"
+    ],
+    "properties": {
+      "uid": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "sort_order": {
+        "type": "integer"
+      },
+      "data": {
+        "$ref": "#/$defs/classData"
+      }
+    },
+    "additionalProperties": false
+  }
+}

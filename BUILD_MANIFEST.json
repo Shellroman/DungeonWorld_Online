@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "display_version": "v1.0.0",
+  "schema_version": 20,
+  "build_id": "bbf02338d0f83dc9",
+  "payload_encrypted_sha256": "f69361fed7486246728034ee3c4049f47cc5de1f22fddeef214fd6183e58763a",
+  "payload_plain_sha256": "aa0d617c36e3e09ec71979baac499a25534d114e2c8db2a9d08ccdde2f2126dd",
+  "payload_protection": "AES-256-GCM + authenticated integrity; Go symbols stripped",
+  "exe_sha256": "ec02b9542a9b1f30f30bc467d33ea28efb080f2d55baa5fe8dda927a386d86dc",
+  "payload_files": [
+    "VERSION",
+    "app.py",
+    "requirements.txt",
+    "static/app.js",
+    "static/index.html",
+    "static/styles.css",
+    "static/i18n_content_en.json",
+    "static/i18n_ui_en.json",
+    "data/seed_data.json",
+    "data/monster_seed.json",
+    "dwpack/DungeonWorld_DWPack_Reference.zip",
+    "dwpack/DungeonWorld_1E_Core.dwpack",
+    "dwpack/DungeonWorld_1E_Core_EN.dwpack",
+    "dwpack/UnlimitedDungeons_DistantShore_Expansions.dwpack",
+    "dwpack/UnlimitedDungeons_DistantShore_Expansions_EN.dwpack",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "AI_USE_NOTICE.md",
+    "LICENSE_ATTRIBUTION_KO.md",
+    "BUILD_ID"
+  ]
+}

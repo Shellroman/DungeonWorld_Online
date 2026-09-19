@@ -1,0 +1,6934 @@
+[
+  {
+    "folder": "캄캄한 동굴",
+    "key": "dark-cave-gargoyle",
+    "name": "가고일",
+    "hp": 3,
+    "armor": 2,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "은밀",
+      "보물지기"
+    ],
+    "special": "날개.",
+    "instinct": "지킨다.",
+    "moves": [
+      "기습한다.",
+      "날아오른다.",
+      "돌 틈에 숨는다."
+    ],
+    "description": "날개 달린 석상 같은 옛 경비병. 폐허와 동굴에 둥지를 틀고 보물 주변을 지킨다.",
+    "en": {
+      "name": "Gargoyle",
+      "attack_name": "Claws",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Stealthy",
+        "Hoarder"
+      ],
+      "special": "Wings.",
+      "instinct": "Guard.",
+      "moves": [
+        "Ambush them.",
+        "Take to the air.",
+        "Hide among the stones."
+      ],
+      "description": "An ancient guardian like a winged stone statue, nesting in ruins and caves and keeping watch over treasure."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "dark-cave-rat",
+    "name": "동굴쥐",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "갉기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "작음",
+      "파괴적"
+    ],
+    "special": "",
+    "instinct": "먹어치운다.",
+    "moves": [
+      "떼지어 덮친다.",
+      "무언가/누군가를 찢어발긴다."
+    ],
+    "description": "사람을 겁내지 않는 거대한 동굴쥐 무리.",
+    "en": {
+      "name": "Cave Rat",
+      "attack_name": "Gnaw",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Small",
+        "Messy"
+      ],
+      "special": "",
+      "instinct": "Devour.",
+      "moves": [
+        "Swarm over them.",
+        "Tear something or someone apart."
+      ],
+      "description": "A horde of giant cave rats with no fear of people."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "dark-cave-dwarf-warrior",
+    "name": "드워프 전사",
+    "hp": 7,
+    "armor": 2,
+    "attack_name": "도끼",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "드워프의 터전을 지킨다.",
+    "moves": [],
+    "description": "지하의 거점과 동족을 지키는 드워프 전사.",
+    "en": {
+      "name": "Dwarven Warrior",
+      "attack_name": "Axe",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Defend dwarven lands.",
+      "moves": [],
+      "description": "A dwarven warrior defending an underground hold and their people."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "dark-cave-flesh-worm",
+    "name": "생살벌레",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "파고들기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": -2,
+      "mode": "normal"
+    },
+    "range": "반걸음",
+    "tags": [
+      "대집단",
+      "매우 작음"
+    ],
+    "special": "살을 파고 들어감.",
+    "instinct": "살 속에 파고든다.",
+    "moves": [],
+    "description": "상처와 살 속을 파고드는 작은 벌레 떼.",
+    "en": {
+      "name": "Rot Grub",
+      "attack_name": "Burrow In",
+      "range": "Hand",
+      "tags": [
+        "Horde",
+        "Tiny"
+      ],
+      "special": "Burrows into flesh.",
+      "instinct": "Burrow into flesh.",
+      "moves": [],
+      "description": "A swarm of tiny worms that burrow into wounds and flesh."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-ankheg",
+    "name": "안케그",
+    "hp": 10,
+    "armor": 3,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼"
+    ],
+    "special": "땅굴을 팜.",
+    "instinct": "땅을 무너뜨린다.",
+    "moves": [
+      "땅을 약하게 만든다.",
+      "땅속에서 불쑥 튀어나온다.",
+      "산을 뿜어 장비와 살을 녹인다."
+    ],
+    "description": "말만 한 크기의 땅굴벌레. 단단한 갑각과 산성 분비물로 지하에서 습격한다.",
+    "en": {
+      "name": "Ankheg",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large"
+      ],
+      "special": "Burrowing.",
+      "instinct": "To undermine.",
+      "moves": [
+        "Undermine the ground.",
+        "Burst from below.",
+        "Spray acid that eats metal and flesh."
+      ],
+      "description": "A horse-sized burrowing insect with crushing jaws, heavy shell, and corrosive acid."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-choker",
+    "name": "교살자",
+    "hp": 15,
+    "armor": 2,
+    "attack_name": "조르기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "은밀",
+      "지능적"
+    ],
+    "special": "유연한 몸.",
+    "instinct": "빛을 거부한다.",
+    "moves": [
+      "붙잡아 숨통을 조인다.",
+      "붙잡은 대상을 내던진다."
+    ],
+    "description": "긴 팔과 고무 같은 몸으로 어둠 속에서 목을 조르는 지하 포식자.",
+    "en": {
+      "name": "Choker",
+      "attack_name": "Choke",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Stealthy",
+        "Intelligent"
+      ],
+      "special": "Flexible body.",
+      "instinct": "To deny light.",
+      "moves": [
+        "Seize someone and choke the breath from them.",
+        "Hurl a creature it is holding."
+      ],
+      "description": "A rubbery, long-armed underground predator that strangles victims from the dark."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-cloaker",
+    "name": "망토 괴물",
+    "hp": 12,
+    "armor": 1,
+    "attack_name": "죄기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "은밀",
+      "장갑 무시"
+    ],
+    "special": "망토처럼 보임. 장갑 무시.",
+    "instinct": "감싸 삼킨다.",
+    "moves": [
+      "방심한 대상을 덮쳐 감싼다."
+    ],
+    "description": "평범한 망토처럼 숨어 있다가 몸을 감아 질식시키는 괴물.",
+    "en": {
+      "name": "Cloaker",
+      "attack_name": "Constrict",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Stealthy",
+        "Ignores Armor"
+      ],
+      "special": "Looks like a cloak.",
+      "instinct": "To engulf.",
+      "moves": [
+        "Engulf an unsuspecting victim."
+      ],
+      "description": "A predator that resembles an ordinary cloak until it wraps itself around a victim."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-earth-elemental",
+    "name": "땅의 정령",
+    "hp": 27,
+    "armor": 4,
+    "attack_name": "강타",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "괴력"
+    ],
+    "special": "돌로 이루어짐.",
+    "instinct": "대지의 힘을 보여준다.",
+    "moves": [
+      "땅 자체를 무기로 바꾼다.",
+      "바위와 한몸이 된다."
+    ],
+    "description": "대지와 바위가 거대한 형체를 이룬 정령.",
+    "en": {
+      "name": "Earth Elemental",
+      "attack_name": "Smash",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Forceful"
+      ],
+      "special": "Made of stone.",
+      "instinct": "To show the strength of earth.",
+      "moves": [
+        "Turn the ground into a weapon.",
+        "Meld into stone."
+      ],
+      "description": "A massive elemental formed from earth and stone."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-fire-beetle",
+    "name": "불풍뎅이",
+    "hp": 3,
+    "armor": 3,
+    "attack_name": "불길",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "중거리",
+    "tags": [
+      "대집단",
+      "작음",
+      "장갑 무시"
+    ],
+    "special": "몸 안에 불길을 품음. 장갑 무시.",
+    "instinct": "불태운다.",
+    "moves": [
+      "땅을 약하게 만든다.",
+      "땅속에서 솟구친다.",
+      "불길을 뿜는다."
+    ],
+    "description": "배 속의 불을 뿜어내는 작은 갑충 떼.",
+    "en": {
+      "name": "Fire Beetle",
+      "attack_name": "Flames",
+      "range": "Near",
+      "tags": [
+        "Horde",
+        "Small",
+        "Ignores Armor"
+      ],
+      "special": "Full of flame.",
+      "instinct": "To enflame.",
+      "moves": [
+        "Undermine the ground.",
+        "Burst from below.",
+        "Spray flames."
+      ],
+      "description": "Small beetles whose bodies carry enough fire to ignite their surroundings."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-gelatinous-cube",
+    "name": "상자젤리",
+    "hp": 20,
+    "armor": 1,
+    "attack_name": "삼키기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "반걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "은밀",
+      "부정형",
+      "장갑 무시"
+    ],
+    "special": "투명함. 장갑 무시.",
+    "instinct": "깨끗이 치운다.",
+    "moves": [
+      "비어 보이는 통로를 가득 채운다.",
+      "닿은 것을 녹인다."
+    ],
+    "description": "통로를 꽉 채우며 움직이는 투명한 산성 젤리.",
+    "en": {
+      "name": "Gelatinous Cube",
+      "attack_name": "Engulf",
+      "range": "Hand",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Stealthy",
+        "Amorphous",
+        "Ignores Armor"
+      ],
+      "special": "Transparent.",
+      "instinct": "To clean.",
+      "moves": [
+        "Fill an apparently empty passage.",
+        "Dissolve what it touches."
+      ],
+      "description": "A transparent acidic cube that slowly fills corridors and digests what it catches."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-goblin",
+    "name": "고블린",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "창",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "작음",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "불어난다.",
+    "moves": [
+      "떼로 돌격한다.",
+      "더 많은 고블린을 부른다.",
+      "도망쳤다가 훨씬 많은 수로 돌아온다."
+    ],
+    "description": "작고 영리하며 수가 끝없이 늘어나는 지하의 약탈자들.",
+    "en": {
+      "name": "Goblin",
+      "attack_name": "Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Small",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "To multiply.",
+      "moves": [
+        "Charge as a mob.",
+        "Call more goblins.",
+        "Retreat and return in greater numbers."
+      ],
+      "description": "Small, clever raiders whose greatest strength is how many of them there are."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-goblin-orkaster",
+    "name": "고블린 오르카스터",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "산성 구체",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "외톨이",
+      "작음",
+      "마법적",
+      "지능적",
+      "조직적",
+      "장갑 무시"
+    ],
+    "special": "장갑 무시.",
+    "instinct": "분수에 넘치는 힘을 끌어낸다.",
+    "moves": [
+      "제대로 이해하지 못한 주문을 쓴다.",
+      "마법적 혼돈을 쏟아낸다.",
+      "다른 고블린을 방패로 쓴다."
+    ],
+    "description": "위험한 마법을 어설프게 다루는 고블린 주문사.",
+    "en": {
+      "name": "Goblin Orkaster",
+      "attack_name": "Acid Orb",
+      "range": "Near, Far",
+      "tags": [
+        "Solitary",
+        "Small",
+        "Magical",
+        "Intelligent",
+        "Organized",
+        "Ignores Armor"
+      ],
+      "special": "",
+      "instinct": "To tap power beyond their stature.",
+      "moves": [
+        "Unleash a poorly understood spell.",
+        "Pour forth magical chaos.",
+        "Use other goblins for shields."
+      ],
+      "description": "A goblin spellcaster wielding dangerous magic far beyond ordinary goblin means."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-goliath",
+    "name": "골리아스",
+    "hp": 14,
+    "armor": 1,
+    "attack_name": "철퇴",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 7,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "소집단",
+      "거대",
+      "조직적",
+      "지능적",
+      "괴력"
+    ],
+    "special": "",
+    "instinct": "빼앗긴 것을 되찾는다.",
+    "moves": [
+      "대지를 뒤흔든다.",
+      "물러났다가 더 강하게 돌아온다."
+    ],
+    "description": "지하에서 때를 기다리는 거대한 고대 종족.",
+    "en": {
+      "name": "Goliath",
+      "attack_name": "Mace",
+      "range": "Reach",
+      "tags": [
+        "Group",
+        "Huge",
+        "Organized",
+        "Intelligent",
+        "Forceful"
+      ],
+      "special": "",
+      "instinct": "To retake.",
+      "moves": [
+        "Shake the earth.",
+        "Retreat and return stronger."
+      ],
+      "description": "An ancient race of enormous subterranean titans waiting to reclaim what was lost."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-maggot-squid",
+    "name": "구더기문어",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "씹기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "작음"
+    ],
+    "special": "수륙양서, 마비시키는 촉수.",
+    "instinct": "먹는다.",
+    "moves": [
+      "촉수 접촉으로 대상을 마비시킨다."
+    ],
+    "description": "마비 촉수를 지닌 작고 혐오스러운 수륙양서 괴물.",
+    "en": {
+      "name": "Maggot-Squid",
+      "attack_name": "Chew",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Small"
+      ],
+      "special": "Amphibious; paralyzing tentacles.",
+      "instinct": "To eat.",
+      "moves": [
+        "Paralyze with a touch."
+      ],
+      "description": "A small amphibious horror whose writhing tentacles can paralyze prey."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-otyugh",
+    "name": "오튜그",
+    "hp": 20,
+    "armor": 1,
+    "attack_name": "촉수",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "괴력"
+    ],
+    "special": "오물병.",
+    "instinct": "더럽힌다.",
+    "moves": [
+      "오물병을 옮긴다.",
+      "대상이나 물건을 집어던진다."
+    ],
+    "description": "쓰레기와 오물을 먹으며 사는 거대한 촉수 괴물.",
+    "en": {
+      "name": "Otyugh",
+      "attack_name": "Tentacles",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Forceful"
+      ],
+      "special": "Filth fever.",
+      "instinct": "To befoul.",
+      "moves": [
+        "Infect someone with filth fever.",
+        "Fling a creature or object."
+      ],
+      "description": "A hulking tentacled scavenger that thrives in refuse and spreads foul disease."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-purple-worm",
+    "name": "보라벌레",
+    "hp": 20,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "괴력"
+    ],
+    "special": "땅굴을 팜.",
+    "instinct": "먹어치운다.",
+    "moves": [
+      "통째로 삼킨다.",
+      "바위와 흙을 뚫고 굴을 낸다."
+    ],
+    "description": "거대한 지하 벌레. 무엇이든 삼키며 암반까지 파헤친다.",
+    "en": {
+      "name": "Purple Worm",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Forceful"
+      ],
+      "special": "Burrowing.",
+      "instinct": "To consume.",
+      "moves": [
+        "Swallow prey whole.",
+        "Tunnel through stone and earth."
+      ],
+      "description": "A colossal subterranean worm that swallows prey whole and tunnels through rock."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-roper",
+    "name": "촉수바위",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "은밀",
+      "지능적"
+    ],
+    "special": "바위 같은 살갗.",
+    "instinct": "매복한다.",
+    "moves": [
+      "방심한 대상을 촉수로 붙든다.",
+      "무기를 빼앗는다.",
+      "붙잡은 대상을 씹는다."
+    ],
+    "description": "바위처럼 위장해 촉수로 지나가는 먹이를 낚아채는 포식자.",
+    "en": {
+      "name": "Roper",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Stealthy",
+        "Intelligent"
+      ],
+      "special": "Rock-like flesh.",
+      "instinct": "To ambush.",
+      "moves": [
+        "Snare an unwary passerby.",
+        "Disarm a foe.",
+        "Chew on captured prey."
+      ],
+      "description": "A rock-like ambusher that lashes out with tentacles to drag prey into its jaws."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-spiderlord",
+    "name": "거미왕",
+    "hp": 16,
+    "armor": 3,
+    "attack_name": "집게턱",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 4,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "음흉함",
+      "지능적"
+    ],
+    "special": "땅굴을 팜.",
+    "instinct": "거미줄과 계략을 짠다.",
+    "moves": [
+      "거미줄로 꼼짝 못하게 만든다.",
+      "준비한 계략을 실행에 옮긴다."
+    ],
+    "description": "거미 떼와 음모를 동시에 다루는 거대한 지능형 포식자.",
+    "en": {
+      "name": "Spiderlord",
+      "attack_name": "Mandibles",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Devious",
+        "Intelligent"
+      ],
+      "special": "Burrowing.",
+      "instinct": "To weave webs and schemes.",
+      "moves": [
+        "Enmesh a victim in webbing.",
+        "Set a prepared plot in motion."
+      ],
+      "description": "A giant intelligent spider that spins both webs and elaborate schemes."
+    }
+  },
+  {
+    "folder": "캄캄한 동굴",
+    "key": "cavern-troglodyte",
+    "name": "지하인",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "곤봉",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "문명을 약탈한다.",
+    "moves": [
+      "습격한 뒤 물러난다.",
+      "주워 온 무기나 마법을 활용한다."
+    ],
+    "description": "문명의 변두리를 습격하는 오래된 동굴 종족.",
+    "en": {
+      "name": "Troglodyte",
+      "attack_name": "Club",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "To prey on civilization.",
+      "moves": [
+        "Raid and retreat.",
+        "Use scavenged weapons or magic."
+      ],
+      "description": "An old cave-dwelling people that raid the edges of civilization."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-frogman",
+    "name": "개구리인간",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "창",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "작음",
+      "지능적"
+    ],
+    "special": "수륙양서.",
+    "instinct": "전쟁을 한다.",
+    "moves": [
+      "수륙 양면에서 공격한다.",
+      "놀라운 속도로 상처를 회복한다."
+    ],
+    "description": "늪에서 작은 왕국과 전쟁을 벌이는 개구리 모습의 종족.",
+    "en": {
+      "name": "Frogman",
+      "attack_name": "Spear",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Small",
+        "Intelligent"
+      ],
+      "special": "Amphibious.",
+      "instinct": "Make war.",
+      "moves": [
+        "Attack from land or water.",
+        "Recover from wounds with astonishing speed."
+      ],
+      "description": "A frog-like people who wage wars and build small kingdoms in the swamp."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-giant-croc",
+    "name": "거대 악어",
+    "hp": 10,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼"
+    ],
+    "special": "수륙양서, 위장색.",
+    "instinct": "먹는다.",
+    "moves": [],
+    "description": "늪에 숨어 사냥감을 물어 끌고 가는 거대한 악어.",
+    "en": {
+      "name": "Crocodilian",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large"
+      ],
+      "special": "Amphibious, camouflage.",
+      "instinct": "Eat.",
+      "moves": [],
+      "description": "A giant crocodile that hides in the swamp, bites its prey, and drags it away."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-doppelganger",
+    "name": "도펠겡어",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "단검",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "지능적"
+    ],
+    "special": "변신.",
+    "instinct": "다른 이의 자리를 빼앗는다.",
+    "moves": [],
+    "description": "사람의 모습을 흉내 내어 정체를 숨기는 변신 괴물.",
+    "en": {
+      "name": "Doppelgänger",
+      "attack_name": "Dagger",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Intelligent"
+      ],
+      "special": "Shapeshifting.",
+      "instinct": "Take another person’s place.",
+      "moves": [],
+      "description": "A shapeshifting monster that hides its identity by imitating human form."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-dragon-turtle",
+    "name": "용 거북",
+    "hp": 20,
+    "armor": 4,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "조심스러움"
+    ],
+    "special": "등껍질, 수륙양서.",
+    "instinct": "영역을 지킨다.",
+    "moves": [],
+    "description": "두꺼운 등껍질을 가진 거대한 수륙양서 괴수.",
+    "en": {
+      "name": "Dragon Turtle",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Cautious"
+      ],
+      "special": "Shell, amphibious.",
+      "instinct": "Defend its territory.",
+      "moves": [],
+      "description": "A gigantic amphibious beast protected by a thick shell."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-black-pudding",
+    "name": "검은 반죽",
+    "hp": 15,
+    "armor": 1,
+    "attack_name": "소화",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "부정형",
+      "장갑 무시"
+    ],
+    "special": "형태가 일정하지 않음. 장갑 무시.",
+    "instinct": "녹여 없앤다.",
+    "moves": [
+      "금속과 살과 나무를 먹어 치운다.",
+      "좁고 곤란한 틈으로 스며든다."
+    ],
+    "description": "검은 산성 점액 덩어리로, 닿는 것을 먹어치운다.",
+    "en": {
+      "name": "Black Pudding",
+      "attack_name": "Digest",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Amorphous",
+        "Ignores Armor"
+      ],
+      "special": "Amorphous.",
+      "instinct": "To dissolve.",
+      "moves": [
+        "Consume metal, flesh, or wood.",
+        "Seep through troublesome gaps."
+      ],
+      "description": "A black acidic ooze that digests nearly anything it can envelop."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-sauropod",
+    "name": "고래도마뱀",
+    "hp": 18,
+    "armor": 4,
+    "attack_name": "짓밟기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "소집단",
+      "거대",
+      "조심스러움"
+    ],
+    "special": "갑옷 같은 몸.",
+    "instinct": "버틴다.",
+    "moves": [
+      "무리지어 짓밟는다.",
+      "무언가를 넘어뜨린다.",
+      "귀를 먹먹하게 하는 포효를 낸다."
+    ],
+    "description": "고대 늪지에 사는 장갑 같은 피부의 초대형 초식 괴수.",
+    "en": {
+      "name": "Sauropod",
+      "attack_name": "Trample",
+      "range": "Reach",
+      "tags": [
+        "Group",
+        "Huge",
+        "Cautious"
+      ],
+      "special": "Armor-plated body.",
+      "instinct": "To endure.",
+      "moves": [
+        "Stampede.",
+        "Knock something down.",
+        "Unleash a deafening bellow."
+      ],
+      "description": "A colossal, armored swamp beast that is placid until provoked."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-shambler",
+    "name": "늪나그네",
+    "hp": 23,
+    "armor": 1,
+    "attack_name": "후려치기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "마법적",
+      "괴력"
+    ],
+    "special": "늪 그 자체 같은 몸.",
+    "instinct": "늪을 보존하고 늘린다.",
+    "moves": [
+      "늪 자체를 불러 도움받는다.",
+      "늪과 한몸이 된다.",
+      "몸을 새로운 형태로 다시 모은다."
+    ],
+    "description": "진흙과 덩굴과 균류가 뭉쳐 움직이는 늪의 정령.",
+    "en": {
+      "name": "Swamp Shambler",
+      "attack_name": "Lash",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Magical",
+        "Forceful"
+      ],
+      "special": "Swamp form.",
+      "instinct": "To preserve and create swamps.",
+      "moves": [
+        "Call on the swamp for aid.",
+        "Meld into the swamp.",
+        "Reassemble in a new form."
+      ],
+      "description": "A swamp spirit formed from mud, vine, and fungus."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-will-o-wisp",
+    "name": "도깨비불",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "광선",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": -2,
+      "mode": "low"
+    },
+    "range": "중거리",
+    "tags": [
+      "외톨이",
+      "매우 작음",
+      "마법적"
+    ],
+    "special": "빛으로 된 몸.",
+    "instinct": "길을 잘못 들게 한다.",
+    "moves": [
+      "엉뚱한 방향으로 유인한다.",
+      "가장 위험한 곳으로 가는 길을 열어 보인다."
+    ],
+    "description": "늪의 어둠에서 안전한 등불인 척 여행자를 유인하는 빛.",
+    "en": {
+      "name": "Will-o-wisp",
+      "attack_name": "Ray",
+      "range": "Near",
+      "tags": [
+        "Solitary",
+        "Tiny",
+        "Magical"
+      ],
+      "special": "Body of light.",
+      "instinct": "To misguide.",
+      "moves": [
+        "Lead someone astray.",
+        "Clear a tempting path toward the worst possible place."
+      ],
+      "description": "A cruel floating light that lures travelers deeper into danger."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-lizardman",
+    "name": "도마뱀인간",
+    "hp": 6,
+    "armor": 2,
+    "attack_name": "창",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "은밀",
+      "지능적",
+      "조직적"
+    ],
+    "special": "수륙양서.",
+    "instinct": "문명을 파괴한다.",
+    "moves": [
+      "방심한 적을 습격한다.",
+      "물과 육지를 오가며 공격한다."
+    ],
+    "description": "잊힌 늪과 폐허에서 문명을 적대하는 도마뱀 종족.",
+    "en": {
+      "name": "Lizardman",
+      "attack_name": "Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Stealthy",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Amphibious.",
+      "instinct": "To destroy civilization.",
+      "moves": [
+        "Ambush the unsuspecting.",
+        "Launch an amphibious assault."
+      ],
+      "description": "A cunning amphibious people that strike from forgotten swamps and ruins."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-medusa",
+    "name": "메두사",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "지능적",
+      "보물지기"
+    ],
+    "special": "시선이 살을 돌로 바꿈.",
+    "instinct": "수집한다.",
+    "moves": [
+      "시선으로 신체 일부를 돌로 만든다.",
+      "상대의 눈길을 강제로 끈다.",
+      "감춰진 무시무시한 아름다움을 드러낸다."
+    ],
+    "description": "석화된 희생자들을 기묘한 수집품으로 남기는 뱀머리 괴물.",
+    "en": {
+      "name": "Medusa",
+      "attack_name": "Claws",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Intelligent",
+        "Hoarder"
+      ],
+      "special": "Its gaze turns flesh to stone.",
+      "instinct": "To collect.",
+      "moves": [
+        "Turn part of a body to stone with a look.",
+        "Draw someone’s gaze.",
+        "Reveal a terrible hidden beauty."
+      ],
+      "description": "A serpent-haired collector whose gaze can petrify the living."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-basilisk",
+    "name": "바실리스크",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "보물지기"
+    ],
+    "special": "",
+    "instinct": "석상을 만든다.",
+    "moves": [
+      "시선으로 석화시킨다.",
+      "자신이 만든 돌미궁으로 물러난다."
+    ],
+    "description": "시선으로 먹이를 돌로 만드는 무거운 비늘의 포식자.",
+    "en": {
+      "name": "Basilisk",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Hoarder"
+      ],
+      "special": "",
+      "instinct": "To make statues.",
+      "moves": [
+        "Petrify with its gaze.",
+        "Retreat into a maze of stone victims."
+      ],
+      "description": "A heavy-scaled predator whose deadly gaze leaves a garden of stone victims."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-bakunawa",
+    "name": "바쿠나와",
+    "hp": 16,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "지능적"
+    ],
+    "special": "수륙양서. 공격 관통 1.",
+    "instinct": "삼킨다.",
+    "moves": [
+      "거짓말과 환상으로 먹이를 꾄다.",
+      "빛나거나 귀한 것을 공격한다.",
+      "통째로 삼키려 든다."
+    ],
+    "description": "달과 보석 같은 빛나는 것을 탐내는 거대한 물뱀 괴물.",
+    "en": {
+      "name": "Bakunawa",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Intelligent"
+      ],
+      "special": "Amphibious. Attack Piercing 1.",
+      "instinct": "To devour.",
+      "moves": [
+        "Lure prey with lies and illusions.",
+        "Attack glittering valuables.",
+        "Try to devour a victim."
+      ],
+      "description": "A gigantic aquatic serpent that covets shining things and swallows prey."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-fire-eels",
+    "name": "불장어",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "불길",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": -2,
+      "mode": "normal"
+    },
+    "range": "반걸음",
+    "tags": [
+      "대집단",
+      "매우 작음",
+      "장갑 무시"
+    ],
+    "special": "수중 생물, 불붙기 쉬운 기름. 장갑 무시.",
+    "instinct": "불붙인다.",
+    "moves": [
+      "물속에서도 대상을 불태운다.",
+      "불붙은 먹이를 뜯어먹는다."
+    ],
+    "description": "불붙는 기름을 내뿜는 작은 늪장어 떼.",
+    "en": {
+      "name": "Fire Eels",
+      "attack_name": "Fire",
+      "range": "Hand",
+      "tags": [
+        "Horde",
+        "Tiny",
+        "Ignores Armor"
+      ],
+      "special": "Aquatic; flammable oil.",
+      "instinct": "To ignite.",
+      "moves": [
+        "Set a target on fire, even underwater.",
+        "Feed on burning prey."
+      ],
+      "description": "Tiny aquatic eels whose oily bodies can ignite even in the water."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-sahuagin",
+    "name": "사후아긴",
+    "hp": 3,
+    "armor": 2,
+    "attack_name": "무수한 이빨",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 4,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "괴력",
+      "파괴적"
+    ],
+    "special": "수륙양서. 공격 관통 1.",
+    "instinct": "피를 흘리게 한다.",
+    "moves": [
+      "팔다리를 물어뜯는다.",
+      "독 묻은 창을 던진다.",
+      "피 냄새를 맡으면 광란한다."
+    ],
+    "description": "상어 같은 이빨을 가진 피에 굶주린 수륙양서 종족.",
+    "en": {
+      "name": "Sahuagin",
+      "attack_name": "Endless Teeth",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Forceful",
+        "Messy"
+      ],
+      "special": "Amphibious. Attack Piercing 1.",
+      "instinct": "To spill blood.",
+      "moves": [
+        "Bite off a limb.",
+        "Hurl a poisoned spear.",
+        "Frenzy at the sight of blood."
+      ],
+      "description": "A blood-crazed amphibious people with sharklike teeth."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-dragon-whelp",
+    "name": "새끼 용",
+    "hp": 16,
+    "armor": 3,
+    "attack_name": "원소 숨결",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 중거리",
+    "tags": [
+      "외톨이",
+      "작음",
+      "지능적",
+      "조심스러움",
+      "보물지기"
+    ],
+    "special": "날개, 원소의 피.",
+    "instinct": "힘을 키운다.",
+    "moves": [
+      "둥지와 세력 기반을 만든다.",
+      "용족 친척을 부른다.",
+      "복종이나 맹세를 요구한다."
+    ],
+    "description": "아직 작지만 이미 영리하고 탐욕스러운 어린 용.",
+    "en": {
+      "name": "Dragon Whelp",
+      "attack_name": "Elemental Breath",
+      "range": "Close, Near",
+      "tags": [
+        "Solitary",
+        "Small",
+        "Intelligent",
+        "Cautious",
+        "Hoarder"
+      ],
+      "special": "Wings; elemental blood.",
+      "instinct": "To grow in power.",
+      "moves": [
+        "Establish a lair and power base.",
+        "Call draconic kin.",
+        "Demand an oath or submission."
+      ],
+      "description": "A young dragon: smaller than its elders, but already clever, proud, and dangerous."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-ekek",
+    "name": "에케크",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단"
+    ],
+    "special": "날개가 된 팔.",
+    "instinct": "갑자기 덮친다.",
+    "moves": [
+      "공중에서 덮친다.",
+      "더 강한 존재의 명령을 따른다."
+    ],
+    "description": "날개 같은 팔로 늪 위를 날며 떼로 습격하는 작은 괴물.",
+    "en": {
+      "name": "Ekek",
+      "attack_name": "Claws",
+      "range": "Close",
+      "tags": [
+        "Horde"
+      ],
+      "special": "Wing-arms.",
+      "instinct": "To attack suddenly.",
+      "moves": [
+        "Attack from the air.",
+        "Obey a stronger creature."
+      ],
+      "description": "Small wing-armed creatures that descend in sudden swarming attacks."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-kobold",
+    "name": "코볼트",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "창",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "작음",
+      "은밀",
+      "지능적",
+      "조직적"
+    ],
+    "special": "용과의 연계.",
+    "instinct": "용을 섬긴다.",
+    "moves": [
+      "함정을 놓는다.",
+      "용이나 용족 동맹을 부른다.",
+      "물러나 다시 무리를 정비한다."
+    ],
+    "description": "용을 섬기며 함정과 매복을 즐겨 쓰는 작은 파충류 종족.",
+    "en": {
+      "name": "Kobold",
+      "attack_name": "Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Small",
+        "Stealthy",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Connection to dragons.",
+      "instinct": "To serve dragons.",
+      "moves": [
+        "Lay a trap.",
+        "Call dragons or draconic allies.",
+        "Retreat and regroup."
+      ],
+      "description": "Small draconic servants that rely on traps, numbers, and their connection to dragons."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-coutal",
+    "name": "코아틀",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "정화의 광선",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "음흉함",
+      "장갑 무시"
+    ],
+    "special": "날개, 후광. 장갑 무시.",
+    "instinct": "정화한다.",
+    "moves": [
+      "사람이나 장소를 심판한다.",
+      "신성한 힘을 불러 정화한다.",
+      "봉사를 대가로 정보를 준다."
+    ],
+    "description": "후광과 날개를 지닌 신성한 뱀으로, 타락한 것을 정화하려 한다.",
+    "en": {
+      "name": "Coutal",
+      "attack_name": "Cleansing Ray",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Devious",
+        "Ignores Armor"
+      ],
+      "special": "Wings; halo.",
+      "instinct": "To cleanse.",
+      "moves": [
+        "Pass judgment on a person or place.",
+        "Call divine power to cleanse.",
+        "Trade information for service."
+      ],
+      "description": "A winged, haloed serpent that judges corruption and seeks to cleanse it."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-troll",
+    "name": "트롤",
+    "hp": 20,
+    "armor": 1,
+    "attack_name": "곤봉",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "괴력"
+    ],
+    "special": "재생.",
+    "instinct": "부순다.",
+    "moves": [
+      "약점으로 받은 것이 아니라면 공격의 효과를 재생으로 되돌린다.",
+      "대상이나 물건을 집어던진다."
+    ],
+    "description": "불이나 산이 아니면 상처가 되살아나는 거대한 재생 괴물.",
+    "en": {
+      "name": "Troll",
+      "attack_name": "Club",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Forceful"
+      ],
+      "special": "Regeneration.",
+      "instinct": "To smash.",
+      "moves": [
+        "Regenerate the effects of an attack unless it exploits a weakness.",
+        "Hurl a creature or object."
+      ],
+      "description": "A huge regenerating brute whose wounds close unless its weaknesses are exploited."
+    }
+  },
+  {
+    "folder": "부글거리는 늪지",
+    "key": "swamp-hydra",
+    "name": "히드라",
+    "hp": 16,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼"
+    ],
+    "special": "많은 머리. 심장을 꿰뚫어야 죽음.",
+    "instinct": "자란다.",
+    "moves": [
+      "여러 적을 한꺼번에 문다.",
+      "잘린 머리나 손상된 몸을 다시 자라게 한다."
+    ],
+    "description": "머리를 자를수록 더 늘어나는 늪의 다두 괴수.",
+    "en": {
+      "name": "Hydra",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large"
+      ],
+      "special": "Many heads; only a true strike to the heart kills it.",
+      "instinct": "To grow.",
+      "moves": [
+        "Attack many enemies at once.",
+        "Regrow a damaged body part, especially a head."
+      ],
+      "description": "A many-headed marsh terror that grows stronger when its heads are severed."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-ghoul",
+    "name": "구울",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "갈퀴손톱",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "파괴적"
+    ],
+    "special": "",
+    "instinct": "먹는다.",
+    "moves": [
+      "신체 부위를 물어서 뜯어낸다.",
+      "먹은 고기의 기억을 얻는다."
+    ],
+    "description": "살아 있는 살을 탐하는 굶주린 언데드.",
+    "en": {
+      "name": "Ghoul",
+      "attack_name": "Raking Claws",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Messy"
+      ],
+      "special": "",
+      "instinct": "Eat.",
+      "moves": [
+        "Bite off a body part.",
+        "Gain the memories of flesh it has eaten."
+      ],
+      "description": "A ravenous undead creature that craves living flesh."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-shadow",
+    "name": "그림자의 정령",
+    "hp": 11,
+    "armor": 4,
+    "attack_name": "그림자의 손길",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "큼",
+      "마법적",
+      "인공물"
+    ],
+    "special": "그림자의 몸.",
+    "instinct": "빛과 생기를 꺼뜨린다.",
+    "moves": [],
+    "description": "마법으로 만들어진 거대한 그림자 정령.",
+    "en": {
+      "name": "Shadow",
+      "attack_name": "Shadow Touch",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Large",
+        "Magical",
+        "Construct"
+      ],
+      "special": "Body of shadow.",
+      "instinct": "Snuff out light and life.",
+      "moves": [],
+      "description": "A huge shadow spirit shaped by magic."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-mummy",
+    "name": "미라",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "때려부수기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "신성",
+      "보물지기"
+    ],
+    "special": "",
+    "instinct": "영원한 안식을 즐긴다.",
+    "moves": [
+      "저주를 건다.",
+      "붕대로 감싼다.",
+      "다시 일어난다."
+    ],
+    "description": "무덤과 부장품을 지키기 위해 일어나는 귀하게 보존된 망자.",
+    "en": {
+      "name": "Mummy",
+      "attack_name": "Smash",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Divine",
+        "Hoarder"
+      ],
+      "special": "",
+      "instinct": "Enjoy eternal rest.",
+      "moves": [
+        "Lay a curse.",
+        "Entangle them in wrappings.",
+        "Rise again."
+      ],
+      "description": "A carefully preserved dead noble who rises to guard a tomb and its grave goods."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-skeletal-dragon",
+    "name": "해골룡",
+    "hp": 20,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "파괴적"
+    ],
+    "special": "용의 뼈로 이루어진 언데드.",
+    "instinct": "주인을 섬긴다.",
+    "moves": [],
+    "description": "죽은 용의 뼈로 만들어져 강력한 사령술사를 섬기는 괴물.",
+    "en": {
+      "name": "Dragonbone",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Messy"
+      ],
+      "special": "Undead made from dragon bones.",
+      "instinct": "Serve its master.",
+      "moves": [],
+      "description": "A monster made from the bones of a dead dragon, bound to serve a powerful necromancer."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-abomination",
+    "name": "누더기좀비",
+    "hp": 20,
+    "armor": 1,
+    "attack_name": "후려치기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물",
+      "끔찍함",
+      "괴력"
+    ],
+    "special": "여러 팔다리와 머리.",
+    "instinct": "생명을 끝낸다.",
+    "moves": [
+      "살아 있는 살을 잡아 찢는다.",
+      "썩은 내장을 쏟아 주변을 더럽힌다."
+    ],
+    "description": "여러 시체를 꿰매 만든 거대한 언데드 덩어리.",
+    "en": {
+      "name": "Abomination",
+      "attack_name": "Slam",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct",
+        "Terrifying",
+        "Forceful"
+      ],
+      "special": "Many limbs and heads.",
+      "instinct": "To end life.",
+      "moves": [
+        "Tear living flesh apart.",
+        "Spill putrid innards over the area."
+      ],
+      "description": "A hulking undead mass stitched from many corpses and animated by murderous hatred."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-banshee",
+    "name": "밴시",
+    "hp": 16,
+    "armor": 0,
+    "attack_name": "비명",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "중거리",
+    "tags": [
+      "외톨이",
+      "마법적",
+      "지능적"
+    ],
+    "special": "실체가 희미함.",
+    "instinct": "복수한다.",
+    "moves": [
+      "끝없는 비명으로 다른 소리를 덮어버린다.",
+      "머리를 깨뜨릴 듯한 절규를 낸다.",
+      "안개 속으로 사라진다."
+    ],
+    "description": "배신의 원한을 품고 비명으로 산 자를 해치는 복수령.",
+    "en": {
+      "name": "Banshee",
+      "attack_name": "Scream",
+      "range": "Near",
+      "tags": [
+        "Solitary",
+        "Magical",
+        "Intelligent"
+      ],
+      "special": "Insubstantial.",
+      "instinct": "To get revenge.",
+      "moves": [
+        "Drown out other sounds with a ceaseless scream.",
+        "Unleash a skull-splitting cry.",
+        "Disappear into mist."
+      ],
+      "description": "A vengeful spirit whose supernatural scream can destroy flesh and senses."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-devourer",
+    "name": "흡혼귀",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "강타",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "지능적",
+      "보물지기",
+      "괴력"
+    ],
+    "special": "",
+    "instinct": "영혼을 먹는다.",
+    "moves": [
+      "죽어가는 자의 영혼을 먹거나 가둔다.",
+      "영혼을 돌려주는 조건으로 거래한다."
+    ],
+    "description": "살이 아니라 죽어가는 이의 영혼을 먹는 지능형 언데드.",
+    "en": {
+      "name": "Devourer",
+      "attack_name": "Smash",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Intelligent",
+        "Hoarder",
+        "Forceful"
+      ],
+      "special": "",
+      "instinct": "To feast on souls.",
+      "moves": [
+        "Devour or imprison a dying soul.",
+        "Bargain over the return of a captured soul."
+      ],
+      "description": "An intelligent undead predator that feeds on souls rather than flesh."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-draugr",
+    "name": "드로그르",
+    "hp": 7,
+    "armor": 2,
+    "attack_name": "녹슨 검",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "조직적"
+    ],
+    "special": "얼음처럼 차가운 손길.",
+    "instinct": "산 자에게서 빼앗는다.",
+    "moves": [
+      "살을 얼어붙게 만든다.",
+      "명예롭게 죽지 못한 망자를 불러낸다."
+    ],
+    "description": "명예 없는 죽음 뒤에 돌아와 산 자의 것을 빼앗는 차가운 전사 망자.",
+    "en": {
+      "name": "Draugr",
+      "attack_name": "Rusty Sword",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Organized"
+      ],
+      "special": "Icy touch.",
+      "instinct": "To take from the living.",
+      "moves": [
+        "Freeze living flesh.",
+        "Call dishonored dead to rise."
+      ],
+      "description": "A cold warrior-dead denied a glorious afterlife and returned to take from the living."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-lich",
+    "name": "리치",
+    "hp": 16,
+    "armor": 5,
+    "attack_name": "마법력",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "외톨이",
+      "마법적",
+      "지능적",
+      "조심스러움",
+      "보물지기",
+      "인공물",
+      "장갑 무시"
+    ],
+    "special": "장갑 무시.",
+    "instinct": "영원한 삶을 보존한다.",
+    "moves": [
+      "치명적이고 파괴적인 주문을 쓴다.",
+      "오래 걸리는 의식이나 계획을 준비한다.",
+      "이미 끝난 준비를 드러낸다."
+    ],
+    "description": "죽음을 거부하고 육체를 마법으로 보존한 고대의 대마법사.",
+    "en": {
+      "name": "Lich",
+      "attack_name": "Magical Force",
+      "range": "Near, Far",
+      "tags": [
+        "Solitary",
+        "Magical",
+        "Intelligent",
+        "Cautious",
+        "Hoarder",
+        "Construct",
+        "Ignores Armor"
+      ],
+      "special": "",
+      "instinct": "To preserve eternal life.",
+      "moves": [
+        "Cast a deadly, destructive spell.",
+        "Prepare a ritual or long plan.",
+        "Reveal preparation completed earlier."
+      ],
+      "description": "An ancient sorcerer who escaped death and preserves an undead existence through powerful magic."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-mohrg",
+    "name": "모르그",
+    "hp": 10,
+    "armor": 0,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단"
+    ],
+    "special": "",
+    "instinct": "혼란을 일으킨다.",
+    "moves": [
+      "고통을 받을수록 더 난폭해진다.",
+      "희생자의 내장을 모은다."
+    ],
+    "description": "살해의 충동과 내장에 대한 집착만 남은 뒤틀린 언데드.",
+    "en": {
+      "name": "Mohrg",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Group"
+      ],
+      "special": "",
+      "instinct": "To create mayhem.",
+      "moves": [
+        "Rage harder when hurt.",
+        "Collect the entrails of victims."
+      ],
+      "description": "A murderous undead thing driven by pain, violence, and a grotesque fixation on entrails."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-spectre",
+    "name": "망령",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "약화의 손길",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "보물지기"
+    ],
+    "special": "실체가 없음.",
+    "instinct": "산 자를 자기 장소에서 몰아낸다.",
+    "moves": [
+      "자신이 깃든 장소를 적에게 이용한다.",
+      "주변 물건을 움직여 공격한다."
+    ],
+    "description": "특정 장소와 재산에 집착해 산 자를 몰아내는 비물질 망령.",
+    "en": {
+      "name": "Spectre",
+      "attack_name": "Weakening Touch",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Hoarder"
+      ],
+      "special": "Insubstantial.",
+      "instinct": "To drive the living from its place.",
+      "moves": [
+        "Turn its haunted place against intruders.",
+        "Animate the environment."
+      ],
+      "description": "An insubstantial dead spirit that clings to a place and drives the living away."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-vampire",
+    "name": "뱀파이어",
+    "hp": 10,
+    "armor": 2,
+    "attack_name": "초자연적 힘",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "은밀",
+      "조직적",
+      "지능적",
+      "괴력"
+    ],
+    "special": "형태 변화, 아주 오래됨. 공격 관통 1.",
+    "instinct": "조종한다.",
+    "moves": [
+      "상대를 매혹한다.",
+      "피를 마신다.",
+      "물러나 더 큰 계략을 준비한다."
+    ],
+    "description": "피를 마시며 오랜 세월 사람을 조종해 온 지능형 언데드 귀족.",
+    "en": {
+      "name": "Vampire",
+      "attack_name": "Supernatural Force",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Stealthy",
+        "Organized",
+        "Intelligent",
+        "Forceful"
+      ],
+      "special": "Shapeshifting; ancient. Attack Piercing 1.",
+      "instinct": "To manipulate.",
+      "moves": [
+        "Charm a victim.",
+        "Drink blood.",
+        "Retreat to prepare a larger scheme."
+      ],
+      "description": "An ancient blood-drinking undead manipulator that uses charm, planning, and supernatural strength."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-sigben",
+    "name": "시그벤",
+    "hp": 11,
+    "armor": 2,
+    "attack_name": "채찍 꼬리",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "큼",
+      "인공물"
+    ],
+    "special": "뱀파이어의 하수인.",
+    "instinct": "날뛴다.",
+    "moves": [
+      "독침을 찌른다.",
+      "뱀파이어 주인의 명령을 따른다."
+    ],
+    "description": "뱀파이어를 위해 길러진 거대한 괴물 하수인.",
+    "en": {
+      "name": "Sigben",
+      "attack_name": "Whip Tail",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Large",
+        "Construct"
+      ],
+      "special": "Vampire servant.",
+      "instinct": "To rampage.",
+      "moves": [
+        "Strike with a venomous sting.",
+        "Obey a vampire master."
+      ],
+      "description": "A hulking undead servant bred or made to obey vampires."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-wight-wolf",
+    "name": "와이트늑대",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "덮치기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "조직적",
+      "지능적"
+    ],
+    "special": "그림자 같은 몸. 공격 관통 1.",
+    "instinct": "사냥한다.",
+    "moves": [
+      "먹잇감 주변을 빙빙 돌며 몰아붙인다.",
+      "무리를 부른다."
+    ],
+    "description": "죽음의 문 너머에서 빠져나와 늑대 모습을 취한 지능형 망령 무리.",
+    "en": {
+      "name": "Wight-Wolf",
+      "attack_name": "Pounce",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Shadowy body. Attack Piercing 1.",
+      "instinct": "To hunt.",
+      "moves": [
+        "Circle and pressure prey.",
+        "Call the rest of the pack."
+      ],
+      "description": "A pack of deathly spirits shaped like great wolves and organized around the hunt."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-ghost",
+    "name": "유령",
+    "hp": 16,
+    "armor": 0,
+    "attack_name": "유령의 손길",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "끔찍함"
+    ],
+    "special": "실체가 없음.",
+    "instinct": "출몰한다.",
+    "moves": [
+      "죽음에 대한 공포를 보여준다.",
+      "중요한 장소에 들러붙어 출몰한다.",
+      "죽음의 문 너머의 정보를 흥정한다."
+    ],
+    "description": "미련과 기억 때문에 장소나 사람 곁을 떠나지 못하는 영혼.",
+    "en": {
+      "name": "Ghost",
+      "attack_name": "Ghostly Touch",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Terrifying"
+      ],
+      "special": "Insubstantial.",
+      "instinct": "To haunt.",
+      "moves": [
+        "Show someone the fear of death.",
+        "Haunt a place of importance.",
+        "Bargain with knowledge from beyond the Black Gates."
+      ],
+      "description": "A dead spirit bound by memory and unfinished business, haunting people or places."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-zombie",
+    "name": "좀비",
+    "hp": 11,
+    "armor": 1,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단"
+    ],
+    "special": "",
+    "instinct": "뇌와 살을 원한다.",
+    "moves": [
+      "엄청난 수로 몰려든다.",
+      "도망갈 길을 막는다.",
+      "시체를 먹고 힘을 얻거나 새 좀비를 만든다."
+    ],
+    "description": "느리지만 끈질기고 수가 많은 시체 군단.",
+    "en": {
+      "name": "Zombie",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Horde"
+      ],
+      "special": "",
+      "instinct": "To seek brains and flesh.",
+      "moves": [
+        "Attack in overwhelming numbers.",
+        "Corner the living.",
+        "Feed on a corpse and spread the undeath."
+      ],
+      "description": "Slow but relentless corpses that become deadly through numbers and hunger."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-skeleton",
+    "name": "해골",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "후려치기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단"
+    ],
+    "special": "",
+    "instinct": "삶을 흉내 낸다.",
+    "moves": [
+      "살아 있을 때 하던 행동을 반복한다.",
+      "빛과 생기를 꺼뜨린다.",
+      "흩어진 뼈에서 다시 몸을 만든다."
+    ],
+    "description": "살아 있을 때의 습관을 메아리처럼 반복하는 움직이는 뼈.",
+    "en": {
+      "name": "Skeleton",
+      "attack_name": "Bash",
+      "range": "Close",
+      "tags": [
+        "Horde"
+      ],
+      "special": "",
+      "instinct": "To mimic life.",
+      "moves": [
+        "Repeat habits from life.",
+        "Snuff out light and warmth.",
+        "Assemble itself from scattered bones."
+      ],
+      "description": "Animated bones that echo the habits and motions of the life they once had."
+    }
+  },
+  {
+    "folder": "언데드 군단",
+    "key": "undead-nightwing",
+    "name": "황천새",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "찢기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "은밀"
+    ],
+    "special": "날개.",
+    "instinct": "사냥한다.",
+    "moves": [
+      "밤하늘에서 급강하한다.",
+      "먹잇감을 붙잡아 날아간다."
+    ],
+    "description": "밤하늘에서 조용히 내려와 희생자를 낚아채는 죽음의 날짐승.",
+    "en": {
+      "name": "Nightwing",
+      "attack_name": "Tear",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Stealthy"
+      ],
+      "special": "Wings.",
+      "instinct": "To hunt.",
+      "moves": [
+        "Dive from the night sky.",
+        "Carry prey away."
+      ],
+      "description": "A shadowy undead flyer that dives silently from the night sky and carries prey away."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-griffin",
+    "name": "그리폰",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "조직적",
+      "괴력"
+    ],
+    "special": "날개.",
+    "instinct": "사냥한다.",
+    "moves": [
+      "사람의 인품을 판단한다.",
+      "친구를 태우고 하늘을 난다.",
+      "위에서부터 내려와 공격한다."
+    ],
+    "description": "사자와 독수리를 닮은 도도하고 충성스러운 하늘의 사냥꾼.",
+    "en": {
+      "name": "Griffin",
+      "attack_name": "Claws",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Organized",
+        "Forceful"
+      ],
+      "special": "Wings.",
+      "instinct": "Hunt.",
+      "moves": [
+        "Judge a person’s character.",
+        "Carry a friend through the sky.",
+        "Swoop down to attack."
+      ],
+      "description": "A proud and loyal hunter of the skies, part lion and part eagle."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-assassin-vine",
+    "name": "암살덩굴",
+    "hp": 15,
+    "armor": 1,
+    "attack_name": "가시",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "은밀",
+      "부정형",
+      "파괴적"
+    ],
+    "special": "식물.",
+    "instinct": "자란다.",
+    "moves": [
+      "순식간에 새순을 틔우고 뻗어낸다.",
+      "자연이 필요로 하는 마법을 쓴다.",
+      "원소를 불러낸다."
+    ],
+    "description": "숲에서 사냥감을 덩굴로 붙잡아 끌고 가는 포식성 식물.",
+    "en": {
+      "name": "Assassin Vine",
+      "attack_name": "Thorns",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Stealthy",
+        "Amorphous",
+        "Messy"
+      ],
+      "special": "Plant.",
+      "instinct": "Grow.",
+      "moves": [
+        "Sprout and spread new growth in an instant.",
+        "Use the magic nature needs.",
+        "Call forth the elements."
+      ],
+      "description": "A predatory plant that catches prey with vines and drags it away through the forest."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-ogre",
+    "name": "오거",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "몽둥이",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "지능적",
+      "괴력"
+    ],
+    "special": "",
+    "instinct": "둥지를 지킨다.",
+    "moves": [],
+    "description": "숲과 언덕 아래에서 살아가는 강인하고 야만적인 종족.",
+    "en": {
+      "name": "Ogre",
+      "attack_name": "Club",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Intelligent",
+        "Forceful"
+      ],
+      "special": "",
+      "instinct": "Protect the nest.",
+      "moves": [],
+      "description": "A hardy and savage people who live among forests and beneath the hills."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-treant",
+    "name": "트리엔트",
+    "hp": 21,
+    "armor": 4,
+    "attack_name": "가지 휘두르기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "소집단",
+      "거대",
+      "지능적",
+      "부정형",
+      "괴력"
+    ],
+    "special": "나무.",
+    "instinct": "자연을 보호한다.",
+    "moves": [
+      "막을 수 없는 힘으로 움직인다.",
+      "뿌리를 내린다.",
+      "옛 마법을 퍼뜨린다."
+    ],
+    "description": "숲을 지키며 움직이는 거대한 나무 존재.",
+    "en": {
+      "name": "Treant",
+      "attack_name": "Slam with Branches",
+      "range": "Reach",
+      "tags": [
+        "Group",
+        "Huge",
+        "Intelligent",
+        "Amorphous",
+        "Forceful"
+      ],
+      "special": "Wooden body.",
+      "instinct": "Protect nature.",
+      "moves": [
+        "Move with unstoppable force.",
+        "Take root.",
+        "Spread ancient magic."
+      ],
+      "description": "A gigantic tree-being that walks to defend the forest."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-chaos-ooze",
+    "name": "혼돈의 즙",
+    "hp": 23,
+    "armor": 1,
+    "attack_name": "뒤틀기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "이계",
+      "끔찍함",
+      "부정형",
+      "장갑 무시"
+    ],
+    "special": "점액질. 이계의 조각들이 박혀 있음.",
+    "instinct": "변화시킨다.",
+    "moves": [
+      "외양이나 본질을 변화시킨다.",
+      "일시적으로 이 세계와 이계를 연결한다."
+    ],
+    "description": "이계에서 새어든 혼돈이 응고되어 움직이는 점액질 괴물.",
+    "en": {
+      "name": "Chaos Ooze",
+      "attack_name": "Twist",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Planar",
+        "Terrifying",
+        "Amorphous",
+        "Ignores Armor"
+      ],
+      "special": "Amorphous slime studded with fragments of other planes.",
+      "instinct": "Transform.",
+      "moves": [
+        "Alter appearance or essence.",
+        "Temporarily bridge this world and another plane."
+      ],
+      "description": "A living ooze formed from chaos that leaked in from another plane."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-sprite",
+    "name": "스프라이트",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "단검",
+    "damage": {
+      "die": "D4",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "반걸음",
+    "tags": [
+      "대집단",
+      "매우 작음",
+      "은밀",
+      "마법적",
+      "음흉함",
+      "지능적"
+    ],
+    "special": "날개, 요정 마법.",
+    "instinct": "장난을 벌인다.",
+    "moves": [
+      "장난을 쳐서 상대의 본성을 드러낸다.",
+      "사람의 감각을 어지럽힌다.",
+      "환상을 만든다."
+    ],
+    "description": "작고 영리하며 요정 마법으로 사람을 곤란하게 하는 존재.",
+    "en": {
+      "name": "Sprite",
+      "attack_name": "Dagger",
+      "range": "Hand",
+      "tags": [
+        "Horde",
+        "Tiny",
+        "Stealthy",
+        "Magical",
+        "Devious",
+        "Intelligent"
+      ],
+      "special": "Wings, faerie magic.",
+      "instinct": "Make mischief.",
+      "moves": [
+        "Play a trick that reveals someone’s true nature.",
+        "Confuse someone’s senses.",
+        "Create an illusion."
+      ],
+      "description": "A small, clever faerie creature that uses magic to make trouble for people."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-blink-dog",
+    "name": "신기루개",
+    "hp": 6,
+    "armor": 4,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "작음",
+      "마법적",
+      "조직적"
+    ],
+    "special": "환상.",
+    "instinct": "무리를 지킨다.",
+    "moves": [],
+    "description": "환상과 순간적인 위치 변화로 사냥하는 마법적인 개 무리.",
+    "en": {
+      "name": "Blink Dog",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Small",
+        "Magical",
+        "Organized"
+      ],
+      "special": "Illusory.",
+      "instinct": "Protect the pack.",
+      "moves": [],
+      "description": "A pack of magical hounds that hunt with illusion and sudden shifts of position."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "forest-centaur",
+    "name": "켄타우로스",
+    "hp": 11,
+    "armor": 1,
+    "attack_name": "활",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음, 중거리",
+    "tags": [
+      "대집단",
+      "큼",
+      "조직적",
+      "지능적"
+    ],
+    "special": "반인반마.",
+    "instinct": "분노한다.",
+    "moves": [
+      "밟고 지나간다.",
+      "활을 완벽하게 쏜다.",
+      "쉬지 않고 빠르게 달린다."
+    ],
+    "description": "숲의 영역을 지키는 반인반마 부족.",
+    "en": {
+      "name": "Centaur",
+      "attack_name": "Bow",
+      "range": "Close, Reach, Near",
+      "tags": [
+        "Horde",
+        "Large",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Half human, half horse.",
+      "instinct": "Rage.",
+      "moves": [
+        "Trample through.",
+        "Shoot with perfect accuracy.",
+        "Run swiftly without tiring."
+      ],
+      "description": "A tribe of centaurs that guards its woodland territory."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-cockatrice",
+    "name": "코카트리스",
+    "hp": 6,
+    "armor": 1,
+    "attack_name": "부리",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "작음",
+      "보물지기"
+    ],
+    "special": "석화 접촉.",
+    "instinct": "둥지를 지킨다.",
+    "moves": [
+      "대상을 서서히 돌로 바꾸기 시작한다."
+    ],
+    "description": "닭과 도마뱀을 섞은 듯한 작은 괴물. 접촉한 살을 돌로 굳힌다.",
+    "en": {
+      "name": "Cockatrice",
+      "attack_name": "Beak",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Small",
+        "Hoarder"
+      ],
+      "special": "Stone touch.",
+      "instinct": "To defend the nest.",
+      "moves": [
+        "Begin a slow transformation to stone."
+      ],
+      "description": "A small birdlike reptile whose touch slowly turns living creatures to stone."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-dryad",
+    "name": "드리아데스",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "죄는 덩굴",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "마법적",
+      "지능적",
+      "음흉함"
+    ],
+    "special": "식물.",
+    "instinct": "자연을 열정적으로 사랑한다.",
+    "moves": [
+      "필멸자를 매혹한다.",
+      "나무 속으로 스며든다.",
+      "자연을 적에게 돌린다."
+    ],
+    "description": "자신의 거목과 숲을 무엇보다 사랑하는 아름답고 위험한 나무 정령.",
+    "en": {
+      "name": "Dryad",
+      "attack_name": "Crushing Vines",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Magical",
+        "Intelligent",
+        "Devious"
+      ],
+      "special": "Plant.",
+      "instinct": "To love nature passionately.",
+      "moves": [
+        "Enchant a mortal.",
+        "Merge into a tree.",
+        "Turn nature against an enemy."
+      ],
+      "description": "A beautiful and dangerous tree spirit bound by fierce love to its woodland home."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-eagle-lord",
+    "name": "대왕수리",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "조직적",
+      "지능적"
+    ],
+    "special": "강력한 날개. 공격 관통 1.",
+    "instinct": "높은 곳을 다스린다.",
+    "moves": [
+      "하늘에서 급강하한다.",
+      "대상을 공중으로 낚아챈다.",
+      "오래된 맹약을 요구한다."
+    ],
+    "description": "산봉우리의 영공을 다스리는 말만 한 거대한 지성의 수리.",
+    "en": {
+      "name": "Eagle Lord",
+      "attack_name": "Talons",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Mighty wings. Attack Piercing 1.",
+      "instinct": "To rule the heights.",
+      "moves": [
+        "Strike from the sky.",
+        "Carry a target into the air.",
+        "Invoke an ancient oath."
+      ],
+      "description": "A proud, intelligent eagle lord that rules mountain skies and remembers ancient pacts."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-elvish-warrior",
+    "name": "엘프 전사",
+    "hp": 3,
+    "armor": 2,
+    "attack_name": "검",
+    "damage": {
+      "die": "D6",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "예리한 감각.",
+    "instinct": "완벽을 추구한다.",
+    "moves": [
+      "약점을 정확히 찌른다.",
+      "오래 준비한 계획을 실행한다.",
+      "숲의 지형을 활용한다."
+    ],
+    "description": "전투마저 예술처럼 수행하는 정예 엘프 병사.",
+    "en": {
+      "name": "Elvish Warrior",
+      "attack_name": "Sword",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Sharp senses.",
+      "instinct": "To seek perfection.",
+      "moves": [
+        "Strike a weak point.",
+        "Put an old plan into motion.",
+        "Use the forest to advantage."
+      ],
+      "description": "An elite elven soldier who treats warfare as an exacting art."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-elvish-arcanist",
+    "name": "엘프 대마도사",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "비전의 불",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "외톨이",
+      "마법적",
+      "지능적",
+      "조직적",
+      "장갑 무시"
+    ],
+    "special": "예리한 감각. 장갑 무시.",
+    "instinct": "힘을 해방한다.",
+    "moves": [
+      "자연이 요구하는 마법을 부린다.",
+      "원소를 불러낸다."
+    ],
+    "description": "자연의 마법과 조화를 이루어 거대한 비전력을 쓰는 엘프 마도사.",
+    "en": {
+      "name": "Elvish High Arcanist",
+      "attack_name": "Arcane Fire",
+      "range": "Near, Far",
+      "tags": [
+        "Solitary",
+        "Magical",
+        "Intelligent",
+        "Organized",
+        "Ignores Armor"
+      ],
+      "special": "Sharp senses.",
+      "instinct": "To unleash power.",
+      "moves": [
+        "Work the magic nature calls for.",
+        "Cast forth the elements."
+      ],
+      "description": "An elven master of magic who harmonizes with the natural arcane world."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-hill-giant",
+    "name": "언덕 거인",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "바위 던지기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "몇걸음, 중거리, 장거리",
+    "tags": [
+      "소집단",
+      "거대",
+      "지능적",
+      "조직적",
+      "괴력"
+    ],
+    "special": "",
+    "instinct": "모든 것을 망친다.",
+    "moves": [
+      "무언가를 던진다.",
+      "엄청나게 어리석은 짓을 한다.",
+      "땅을 뒤흔든다."
+    ],
+    "description": "크고 난폭하며 바위든 가축이든 손에 잡히는 것을 던지는 거인.",
+    "en": {
+      "name": "Hill Giant",
+      "attack_name": "Thrown Rocks",
+      "range": "Reach, Near, Far",
+      "tags": [
+        "Group",
+        "Huge",
+        "Intelligent",
+        "Organized",
+        "Forceful"
+      ],
+      "special": "",
+      "instinct": "To ruin everything.",
+      "moves": [
+        "Throw something.",
+        "Do something spectacularly foolish.",
+        "Shake the earth."
+      ],
+      "description": "A huge, brutish giant that solves problems by throwing whatever comes to hand."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-razor-boar",
+    "name": "서슬멧돼지",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "엄니",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "파괴적"
+    ],
+    "special": "공격 관통 3.",
+    "instinct": "찢어발긴다.",
+    "moves": [
+      "상대를 갈가리 찢는다.",
+      "장갑과 무기를 들이받아 부순다."
+    ],
+    "description": "갑옷까지 찢는 거대한 엄니를 지닌 사나운 멧돼지.",
+    "en": {
+      "name": "Razor Boar",
+      "attack_name": "Tusks",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Messy"
+      ],
+      "special": "Attack Piercing 3.",
+      "instinct": "To shred.",
+      "moves": [
+        "Rip a foe apart.",
+        "Rend armor and weapons."
+      ],
+      "description": "A savage giant boar whose tusks can tear through armor."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-satyr",
+    "name": "사티로스",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "들이받기",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "음흉함",
+      "마법적",
+      "보물지기"
+    ],
+    "special": "요정 마법의 매혹.",
+    "instinct": "즐긴다.",
+    "moves": [
+      "마법으로 축제와 흥청거림에 끌어들인다.",
+      "선물을 억지로 주거나 받게 한다.",
+      "환상과 장난으로 골탕 먹인다."
+    ],
+    "description": "유쾌하지만 앙심도 깊은 숲의 염소발 요정.",
+    "en": {
+      "name": "Satyr",
+      "attack_name": "Charge",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Devious",
+        "Magical",
+        "Hoarder"
+      ],
+      "special": "Fey enchantment.",
+      "instinct": "To enjoy.",
+      "moves": [
+        "Draw others into revelry with magic.",
+        "Force an exchange of gifts.",
+        "Use illusions and pranks."
+      ],
+      "description": "A merry but spiteful goat-legged faerie that mixes revelry with enchantment."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-werewolf",
+    "name": "늑대인간",
+    "hp": 12,
+    "armor": 1,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "파괴적"
+    ],
+    "special": "은에 약함. 공격 관통 1.",
+    "instinct": "문명인의 모습을 벗는다.",
+    "moves": [
+      "사람과 짐승 모습 사이를 바꾼다.",
+      "안쪽에서 기습한다.",
+      "사람의 꾀와 짐승의 감각을 함께 써서 사냥한다."
+    ],
+    "description": "은에 약한 저주받은 변신 사냥꾼.",
+    "en": {
+      "name": "Werewolf",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Messy"
+      ],
+      "special": "Weak to silver. Attack Piercing 1.",
+      "instinct": "To shed the appearance of civilization.",
+      "moves": [
+        "Shift between human and beast to pass unnoticed.",
+        "Strike from within.",
+        "Hunt with both human cunning and animal senses."
+      ],
+      "description": "A cursed shapeshifter that hunts with both human cunning and wolf instinct."
+    }
+  },
+  {
+    "folder": "어두운 숲속",
+    "key": "woods-worg",
+    "name": "바르그르",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "기수와 주인을 섬긴다.",
+    "moves": [
+      "기수를 태우고 전장으로 돌진한다.",
+      "기수에게 유리한 위치를 만들어 준다."
+    ],
+    "description": "고블린들이 전쟁마처럼 길들이는 사납고 영리한 거대 늑대.",
+    "en": {
+      "name": "Worg",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "To serve.",
+      "moves": [
+        "Carry a rider into battle.",
+        "Give its rider an advantage."
+      ],
+      "description": "A fierce, clever wolf-beast bred as a war mount by goblins."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-gnoll-tracker",
+    "name": "놀 추적수",
+    "hp": 6,
+    "armor": 1,
+    "attack_name": "활",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "소집단",
+      "조직적",
+      "지능적"
+    ],
+    "special": "냄새 추적.",
+    "instinct": "약해진 자를 사냥한다.",
+    "moves": [
+      "끈질기게 사냥감을 쫓는다.",
+      "가장 약한 순간에 공격한다."
+    ],
+    "description": "냄새를 따라 끝까지 사냥감을 추적하는 놀 사냥꾼.",
+    "en": {
+      "name": "Gnoll Tracker",
+      "attack_name": "Bow",
+      "range": "Near, Far",
+      "tags": [
+        "Group",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Tracks by scent.",
+      "instinct": "Hunt the weak.",
+      "moves": [
+        "Relentlessly pursue prey.",
+        "Strike at the weakest moment."
+      ],
+      "description": "A gnoll hunter that follows a scent until the prey is run to ground."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-gnoll-emissary",
+    "name": "놀 사절",
+    "hp": 18,
+    "armor": 1,
+    "attack_name": "제사용 단도",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "신성",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "놀의 신과 무리를 섬긴다.",
+    "moves": [],
+    "description": "신성한 의식과 명령으로 놀 무리를 이끄는 사절.",
+    "en": {
+      "name": "Gnoll Emissary",
+      "attack_name": "Sacrificial Dagger",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Divine",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Serve the gnoll god and the pack.",
+      "moves": [],
+      "description": "An emissary who leads a gnoll pack through sacred rites and commands."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-slaver",
+    "name": "오크 노예잡이",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "채찍",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "은밀",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "포로를 잡는다.",
+    "moves": [],
+    "description": "기습과 채찍으로 사람을 사로잡는 오크 노예잡이.",
+    "en": {
+      "name": "Orc Slaver",
+      "attack_name": "Whip",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Stealthy",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Take captives.",
+      "moves": [],
+      "description": "An orc slaver who captures people with ambushes and a whip."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-formian-drone",
+    "name": "포르미안 일꾼",
+    "hp": 7,
+    "armor": 4,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "조직적",
+      "조심스러움"
+    ],
+    "special": "군체 연결, 곤충형.",
+    "instinct": "명령을 따른다.",
+    "moves": [
+      "경보를 울린다.",
+      "군체를 위해 자원을 만든다.",
+      "낯선 것을 군체에 동화시킨다."
+    ],
+    "description": "군체의 명령에 따라 일하는 단단한 갑각의 개미인간 노동자.",
+    "en": {
+      "name": "Formian Drone",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Organized",
+        "Cautious"
+      ],
+      "special": "Hive connection; insectoid.",
+      "instinct": "To follow orders.",
+      "moves": [
+        "Raise the alarm.",
+        "Create value for the hive.",
+        "Assimilate something foreign."
+      ],
+      "description": "A hard-shelled formian worker that exists to obey and strengthen the hive."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-formian-taskmaster",
+    "name": "포르미안 작업감독",
+    "hp": 6,
+    "armor": 3,
+    "attack_name": "가시 채찍",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "조직적",
+      "지능적"
+    ],
+    "special": "군체 연결, 곤충형.",
+    "instinct": "지휘한다.",
+    "moves": [
+      "일꾼들을 전투로 몰아넣는다.",
+      "많은 수를 한꺼번에 움직인다."
+    ],
+    "description": "노동자 군체를 채찍과 정신 연결로 통솔하는 포르미안 감독자.",
+    "en": {
+      "name": "Formian Taskmaster",
+      "attack_name": "Spiked Whip",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Hive connection; insectoid.",
+      "instinct": "To command.",
+      "moves": [
+        "Order drones into battle.",
+        "Set great numbers in motion."
+      ],
+      "description": "A cruel formian overseer that directs masses of drones."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-formian-centurion",
+    "name": "포르미안 병정",
+    "hp": 7,
+    "armor": 3,
+    "attack_name": "가시 창",
+    "damage": {
+      "die": "D6",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "군체 연결, 곤충형, 날개.",
+    "instinct": "명령대로 싸운다.",
+    "moves": [
+      "한 몸처럼 전진한다.",
+      "증원 병력을 부른다.",
+      "군체를 위해 목숨을 버린다."
+    ],
+    "description": "군체의 군대와 여왕의 친위대를 이루는 전투형 포르미안.",
+    "en": {
+      "name": "Formian Centurion",
+      "attack_name": "Barbed Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Hive connection; insectoid; wings.",
+      "instinct": "To fight as ordered.",
+      "moves": [
+        "Advance as one.",
+        "Summon reinforcements.",
+        "Give its life for the hive."
+      ],
+      "description": "A disciplined formian soldier bred to fight and die for the hive."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-formian-queen",
+    "name": "포르미안 여왕",
+    "hp": 24,
+    "armor": 3,
+    "attack_name": "분쇄 턱",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "조직적",
+      "지능적",
+      "보물지기",
+      "괴력"
+    ],
+    "special": "군체 연결, 곤충형.",
+    "instinct": "포르미안을 퍼뜨린다.",
+    "moves": [
+      "자신이 낳은 포르미안들을 부른다.",
+      "미완성 변이 유충을 풀어놓는다.",
+      "군체 전체에 명령을 내린다."
+    ],
+    "description": "군체 전체와 정신적으로 이어져 번식과 명령을 담당하는 거대한 여왕.",
+    "en": {
+      "name": "Formian Queen",
+      "attack_name": "Crushing Mandibles",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Organized",
+        "Intelligent",
+        "Hoarder",
+        "Forceful"
+      ],
+      "special": "Hive connection; insectoid.",
+      "instinct": "To spread formians.",
+      "moves": [
+        "Call the formians she spawned.",
+        "Release a half-formed mutant larva.",
+        "Organize and command the hive."
+      ],
+      "description": "The enormous telepathic heart of a formian hive, devoted to growth and command."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-gnoll-alpha",
+    "name": "놀 두령",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "검",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적"
+    ],
+    "special": "예리한 후각. 공격 관통 1.",
+    "instinct": "무리를 몰아붙인다.",
+    "moves": [
+      "복종을 강요한다.",
+      "무리를 사냥에 내보낸다."
+    ],
+    "description": "잔혹함으로 무리를 굴복시킨 놀 우두머리.",
+    "en": {
+      "name": "Gnoll Alpha",
+      "attack_name": "Sword",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Scent. Attack Piercing 1.",
+      "instinct": "To drive the pack.",
+      "moves": [
+        "Demand obedience.",
+        "Send the pack hunting."
+      ],
+      "description": "A vicious gnoll leader that rules the pack through fear and brutality."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-bloodwarrior",
+    "name": "오크 혈투사",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "톱날 검",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적",
+      "파괴적"
+    ],
+    "special": "공격 관통 1.",
+    "instinct": "싸운다.",
+    "moves": [
+      "몸을 사리지 않고 싸운다.",
+      "파괴를 즐긴다."
+    ],
+    "description": "태어날 때부터 전쟁을 배우는 오크 무리의 기본 전사.",
+    "en": {
+      "name": "Orc Bloodwarrior",
+      "attack_name": "Jagged Blade",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized",
+        "Messy"
+      ],
+      "special": "Attack Piercing 1.",
+      "instinct": "To fight.",
+      "moves": [
+        "Fight with abandon.",
+        "Revel in destruction."
+      ],
+      "description": "A common orc warrior raised from birth for brutal war."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-berserker",
+    "name": "오크 광전사",
+    "hp": 20,
+    "armor": 0,
+    "attack_name": "대형 도끼",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "신성",
+      "지능적",
+      "조직적"
+    ],
+    "special": "돌연변이.",
+    "instinct": "광란한다.",
+    "moves": [
+      "광폭한 전투 상태에 빠진다.",
+      "주변에 혼돈과 파괴를 일으킨다."
+    ],
+    "description": "어둠의 의식으로 힘과 정신을 바꾼 거대한 오크 광전사.",
+    "en": {
+      "name": "Orc Berserker",
+      "attack_name": "Cleaver",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Divine",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Mutations.",
+      "instinct": "To rage.",
+      "moves": [
+        "Enter a battle frenzy.",
+        "Unleash chaos around it."
+      ],
+      "description": "A huge orc warrior transformed by dark rites into a living engine of rage."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-breaker",
+    "name": "오크 망치잡이",
+    "hp": 16,
+    "armor": 0,
+    "attack_name": "망치",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "괴력",
+      "장갑 무시"
+    ],
+    "special": "장갑 무시.",
+    "instinct": "부순다.",
+    "moves": [
+      "장갑과 방어물을 박살낸다.",
+      "강한 상대를 한 방에 쓰러뜨린다."
+    ],
+    "description": "거대한 망치로 방패와 갑옷부터 깨뜨리는 특대형 오크.",
+    "en": {
+      "name": "Orc Breaker",
+      "attack_name": "Hammer",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Forceful",
+        "Ignores Armor"
+      ],
+      "special": "",
+      "instinct": "To smash.",
+      "moves": [
+        "Destroy armor or protection.",
+        "Lay low the mighty."
+      ],
+      "description": "A massive orc whose hammer is made to crush armor and powerful foes."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-one-eye",
+    "name": "오크 애꾸눈",
+    "hp": 6,
+    "armor": 0,
+    "attack_name": "상처 입히기",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음, 중거리, 장거리",
+    "tags": [
+      "소집단",
+      "신성",
+      "마법적",
+      "지능적",
+      "조직적",
+      "장갑 무시"
+    ],
+    "special": "한쪽 눈. 장갑 무시.",
+    "instinct": "증오한다.",
+    "moves": [
+      "신성한 어둠의 마법으로 살을 찢는다.",
+      "눈을 빼앗는다.",
+      "희생을 바쳐 더 강해진다."
+    ],
+    "description": "희생과 증오의 신성 마법을 쓰는 오크 사제 전사.",
+    "en": {
+      "name": "Orc One-Eye",
+      "attack_name": "Inflict Wounds",
+      "range": "Close, Reach, Near, Far",
+      "tags": [
+        "Group",
+        "Divine",
+        "Magical",
+        "Intelligent",
+        "Organized",
+        "Ignores Armor"
+      ],
+      "special": "One eye.",
+      "instinct": "To hate.",
+      "moves": [
+        "Rend flesh with divine magic.",
+        "Take an eye.",
+        "Make a sacrifice and grow stronger."
+      ],
+      "description": "An orc holy warrior who channels hatred through sacrifice and dark magic."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-shaman",
+    "name": "오크 무당",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "원소 폭발",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음, 중거리, 장거리",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적",
+      "장갑 무시"
+    ],
+    "special": "원소의 힘. 장갑 무시.",
+    "instinct": "오크 종족을 강하게 한다.",
+    "moves": [
+      "대지의 보호를 준다.",
+      "불의 힘을 준다.",
+      "물의 속도를 준다.",
+      "바람의 명료함을 준다."
+    ],
+    "description": "오래된 원소의 힘으로 동족을 돕는 오크 주술사.",
+    "en": {
+      "name": "Orc Shaman",
+      "attack_name": "Elemental Blast",
+      "range": "Close, Reach, Near, Far",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized",
+        "Ignores Armor"
+      ],
+      "special": "Elemental power.",
+      "instinct": "To strengthen orc-kind.",
+      "moves": [
+        "Grant earth’s protection.",
+        "Grant fire’s power.",
+        "Grant water’s swiftness.",
+        "Grant air’s clarity."
+      ],
+      "description": "An orc shaman who channels old elemental powers to protect and empower the tribe."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-shadowhunter",
+    "name": "오크 암살수",
+    "hp": 10,
+    "armor": 0,
+    "attack_name": "독 단검",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "은밀",
+      "마법적",
+      "지능적"
+    ],
+    "special": "진정한 밤의 망토. 공격 관통 1.",
+    "instinct": "어둠 속에서 죽인다.",
+    "moves": [
+      "독을 먹인다.",
+      "그림자 속으로 녹아든다.",
+      "적을 어둠으로 감싼다."
+    ],
+    "description": "밤의 마법으로 숨어 적진에 스며드는 오크 암살자.",
+    "en": {
+      "name": "Orc Shadowhunter",
+      "attack_name": "Poisoned Dagger",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Stealthy",
+        "Magical",
+        "Intelligent"
+      ],
+      "special": "Cloak of true night. Attack Piercing 1.",
+      "instinct": "To kill in darkness.",
+      "moves": [
+        "Poison a target.",
+        "Melt into shadow.",
+        "Cloak an enemy in darkness."
+      ],
+      "description": "An orc assassin cloaked in night magic, poison, and shadow."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-orc-warchief",
+    "name": "오크 군장",
+    "hp": 16,
+    "armor": 0,
+    "attack_name": "고대의 철검",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적"
+    ],
+    "special": "애꾸눈의 축복, 무당의 축복, 필멸의 해악에 대한 신성한 보호.",
+    "instinct": "이끈다.",
+    "moves": [
+      "전쟁을 시작한다.",
+      "압도적인 힘을 과시한다.",
+      "부족들을 분노하게 만든다."
+    ],
+    "description": "여러 오크 부족 위에 서서 고대의 원한을 전쟁으로 이끄는 군장.",
+    "en": {
+      "name": "Orc Warchief",
+      "attack_name": "Iron Sword of Ages",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "One-Eye and shaman blessings; divine protection from mortal harm.",
+      "instinct": "To lead.",
+      "moves": [
+        "Start a war.",
+        "Make a show of power.",
+        "Enrage the tribes."
+      ],
+      "description": "The supreme orc war leader, bearing old blessings and the grudge of the whole horde."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-triton-spy",
+    "name": "트리톤 염탐꾼",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "삼지창",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음, 중거리",
+    "tags": [
+      "외톨이",
+      "은밀",
+      "지능적",
+      "조직적"
+    ],
+    "special": "수중 생물.",
+    "instinct": "지상을 염탐한다.",
+    "moves": [
+      "숨겨진 비밀을 드러낸다.",
+      "약점을 노려 찌른다."
+    ],
+    "description": "지상 세계의 정보를 훔치러 올라오는 트리톤 첩자.",
+    "en": {
+      "name": "Triton Spy",
+      "attack_name": "Trident",
+      "range": "Close, Near",
+      "tags": [
+        "Solitary",
+        "Stealthy",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Aquatic.",
+      "instinct": "To spy on the surface world.",
+      "moves": [
+        "Reveal secrets.",
+        "Strike at a weakness."
+      ],
+      "description": "A stealthy triton agent sent to learn the secrets and weaknesses of the surface."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-triton-tidecaller",
+    "name": "트리톤 파도소환사",
+    "hp": 6,
+    "armor": 2,
+    "attack_name": "파도",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "소집단",
+      "신성",
+      "마법적",
+      "지능적",
+      "장갑 무시"
+    ],
+    "special": "수중 생물, 변이. 장갑 무시.",
+    "instinct": "대홍수를 불러온다.",
+    "moves": [
+      "물과 파괴의 주문을 쓴다.",
+      "바다 짐승을 지휘한다.",
+      "신성한 계시를 선포한다."
+    ],
+    "description": "심해 신의 목소리를 전하며 파도와 바다짐승을 지휘하는 트리톤 사제.",
+    "en": {
+      "name": "Triton Tidecaller",
+      "attack_name": "Waves",
+      "range": "Near, Far",
+      "tags": [
+        "Group",
+        "Divine",
+        "Magical",
+        "Intelligent",
+        "Ignores Armor"
+      ],
+      "special": "Aquatic; mutations.",
+      "instinct": "To bring on the Flood.",
+      "moves": [
+        "Cast destructive water magic.",
+        "Command sea beasts.",
+        "Reveal a divine proclamation."
+      ],
+      "description": "A mutated triton priest who commands waves, sea beasts, and the prophecy of a coming flood."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-triton-submariner",
+    "name": "트리톤 해병",
+    "hp": 6,
+    "armor": 3,
+    "attack_name": "작살",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음, 중거리, 장거리",
+    "tags": [
+      "소집단",
+      "조직적",
+      "지능적"
+    ],
+    "special": "수중 생물.",
+    "instinct": "전쟁을 벌인다.",
+    "moves": [
+      "트리톤 부대를 이끌고 전투한다.",
+      "적을 파도 아래로 끌고 간다."
+    ],
+    "description": "조개와 강화 유리 갑옷을 입고 전쟁에 나서는 트리톤 해병.",
+    "en": {
+      "name": "Triton Sub-Mariner",
+      "attack_name": "Harpoon",
+      "range": "Close, Near, Far",
+      "tags": [
+        "Group",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Aquatic.",
+      "instinct": "To wage war.",
+      "moves": [
+        "Lead tritons into battle.",
+        "Drag enemies beneath the waves."
+      ],
+      "description": "An armored triton marine equipped to wage organized war above and below the waves."
+    }
+  },
+  {
+    "folder": "이민족의 무리",
+    "key": "horde-triton-noble",
+    "name": "트리톤 귀족",
+    "hp": 6,
+    "armor": 2,
+    "attack_name": "삼지창",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 중거리, 장거리",
+    "tags": [
+      "소집단",
+      "조직적",
+      "지능적"
+    ],
+    "special": "수중 생물.",
+    "instinct": "이끈다.",
+    "moves": [
+      "트리톤들을 전쟁으로 부추긴다.",
+      "증원군을 부른다."
+    ],
+    "description": "오래된 혈통과 권위를 지닌 트리톤 도시의 지배층.",
+    "en": {
+      "name": "Triton Noble",
+      "attack_name": "Trident",
+      "range": "Close, Near, Far",
+      "tags": [
+        "Group",
+        "Organized",
+        "Intelligent"
+      ],
+      "special": "Aquatic.",
+      "instinct": "To lead.",
+      "moves": [
+        "Stir tritons to war.",
+        "Call reinforcements."
+      ],
+      "description": "A ruler of an ancient triton bloodline, able to marshal the people of the sea."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-girallon",
+    "name": "기랄론",
+    "hp": 20,
+    "armor": 1,
+    "attack_name": "잡아 찢기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "괴력"
+    ],
+    "special": "팔이 많음.",
+    "instinct": "지배한다.",
+    "moves": [
+      "제물이 바쳐지는 곳에 나타난다.",
+      "적들을 정글에서 몰아낸다.",
+      "누군가를 집어던진다."
+    ],
+    "description": "여러 개의 팔을 가진 거대한 마법 실험 유인원.",
+    "en": {
+      "name": "Girallon",
+      "attack_name": "Rend",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Forceful"
+      ],
+      "special": "Many arms.",
+      "instinct": "Dominate.",
+      "moves": [
+        "Appear where sacrifices are offered.",
+        "Drive enemies out of the jungle.",
+        "Pick someone up and throw them."
+      ],
+      "description": "A gigantic many-armed ape born of magical experimentation."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-rust-monster",
+    "name": "녹괴물",
+    "hp": 6,
+    "armor": 3,
+    "attack_name": "부식 촉수",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "인공물",
+      "장갑 무시"
+    ],
+    "special": "촉수로 금속을 부식.",
+    "instinct": "부식시킨다.",
+    "moves": [
+      "금속을 녹슬게 한다.",
+      "금속을 먹고 힘을 얻는다."
+    ],
+    "description": "정제된 금속을 부식시켜 먹는 촉수 달린 인공 생물.",
+    "en": {
+      "name": "Rust Monster",
+      "attack_name": "Corrosive Tentacles",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Construct",
+        "Ignores Armor"
+      ],
+      "special": "Tentacles corrode metal.",
+      "instinct": "Corrode.",
+      "moves": [
+        "Rust metal.",
+        "Feed on metal and grow stronger."
+      ],
+      "description": "A tentacled creature that corrodes and devours worked metal."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-derro",
+    "name": "데로",
+    "hp": 3,
+    "armor": 2,
+    "attack_name": "곡괭이",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "음흉함",
+      "지능적",
+      "조직적"
+    ],
+    "special": "텔레파시.",
+    "instinct": "드워프들을 대체한다.",
+    "moves": [
+      "남의 정신에 기이한 생각을 심는다.",
+      "짐승의 정신을 조종한다."
+    ],
+    "description": "텔레파시 능력을 가진 뒤틀린 드워프 계통의 실험 종족.",
+    "en": {
+      "name": "Derro",
+      "attack_name": "Pickaxe",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Devious",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Telepathy.",
+      "instinct": "Replace the dwarves.",
+      "moves": [
+        "Plant strange thoughts in another mind.",
+        "Control the mind of a beast."
+      ],
+      "description": "A twisted offshoot of dwarven stock, altered by experimentation and gifted with telepathy."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-bulette",
+    "name": "불레트",
+    "hp": 20,
+    "armor": 3,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "인공물",
+      "괴력"
+    ],
+    "special": "땅굴을 팜. 공격 관통 3.",
+    "instinct": "먹어치운다.",
+    "moves": [
+      "거친 굴 속으로 먹이를 끌고 간다.",
+      "땅에서 폭발하듯 튀어나온다.",
+      "통째로 삼킨다."
+    ],
+    "description": "땅속을 헤엄치듯 파고 다니는 거대한 인공 포식자.",
+    "en": {
+      "name": "Bulette",
+      "attack_name": "Bite",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Construct",
+        "Forceful"
+      ],
+      "special": "Burrowing. Attack Piercing 3.",
+      "instinct": "To devour.",
+      "moves": [
+        "Drag prey into rough tunnels.",
+        "Burst from the earth.",
+        "Swallow prey whole."
+      ],
+      "description": "A huge artificial land-shark that tunnels beneath the ground and erupts onto prey."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-chimera",
+    "name": "키마이라",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물"
+    ],
+    "special": "",
+    "instinct": "명령받은 일을 한다.",
+    "moves": [
+      "불이나 다른 원소를 토해낸다.",
+      "몸으로 들이받아 넘어뜨린다.",
+      "독을 먹인다."
+    ],
+    "description": "사자와 염소와 뱀 같은 여러 생물을 마법으로 접합한 인공 괴물.",
+    "en": {
+      "name": "Chimera",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct"
+      ],
+      "special": "",
+      "instinct": "To do as commanded.",
+      "moves": [
+        "Belch elemental breath.",
+        "Run a target over.",
+        "Poison a target."
+      ],
+      "description": "A deliberately assembled magical hybrid of several dangerous beasts."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-digester",
+    "name": "융해수",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "산",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물",
+      "장갑 무시"
+    ],
+    "special": "강한 소화성 산 분비. 장갑 무시.",
+    "instinct": "소화한다.",
+    "moves": [
+      "물건이나 마법 구조물을 녹여 먹는다.",
+      "먹은 것에서 힘을 얻는다."
+    ],
+    "description": "실패한 마법 실험과 물건을 처리하도록 만든 산성 포식 생물.",
+    "en": {
+      "name": "Digester",
+      "attack_name": "Acid",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct",
+        "Ignores Armor"
+      ],
+      "special": "Digestive acid secretion.",
+      "instinct": "To digest.",
+      "moves": [
+        "Eat away at something.",
+        "Draw sustenance from what it digests."
+      ],
+      "description": "An engineered acid-eater made to dispose of magical accidents and unwanted creations."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-ethereal-filcher",
+    "name": "에테르 도둑거미",
+    "hp": 12,
+    "armor": 1,
+    "attack_name": "훔친 단검",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "이계"
+    ],
+    "special": "에테르 차원으로 드나듦.",
+    "instinct": "훔친다.",
+    "moves": [
+      "중요한 물건을 차원 둥지로 가져간다.",
+      "에테르 차원으로 도망친다.",
+      "둥지에 쌓아 둔 물건을 꺼내 쓴다."
+    ],
+    "description": "사람 같은 손으로 물건을 훔쳐 에테르 차원의 둥지에 모으는 거미형 괴물.",
+    "en": {
+      "name": "Ethereal Filcher",
+      "attack_name": "Stolen Dagger",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Planar"
+      ],
+      "special": "Moves through the Ethereal plane.",
+      "instinct": "To steal.",
+      "moves": [
+        "Steal something important into its planar lair.",
+        "Retreat into the Ethereal plane.",
+        "Use an item taken to its lair."
+      ],
+      "description": "A planar spiderlike thief that collects stolen objects in an Ethereal lair."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-ettin",
+    "name": "에틴",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "곤봉",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물",
+      "괴력"
+    ],
+    "special": "머리가 둘.",
+    "instinct": "부순다.",
+    "moves": [
+      "서로 다른 두 적을 동시에 공격한다.",
+      "자신을 만든 존재를 지킨다."
+    ],
+    "description": "머리가 둘 달린 마법적으로 만들어진 거인.",
+    "en": {
+      "name": "Ettin",
+      "attack_name": "Club",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct",
+        "Forceful"
+      ],
+      "special": "Two heads.",
+      "instinct": "To smash.",
+      "moves": [
+        "Attack two enemies at once.",
+        "Defend its creator."
+      ],
+      "description": "A magically altered two-headed giant capable of fighting in two directions at once."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-iron-golem",
+    "name": "무쇠 골렘",
+    "hp": 10,
+    "armor": 3,
+    "attack_name": "금속 주먹",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "인공물",
+      "괴력"
+    ],
+    "special": "금속 몸.",
+    "instinct": "섬긴다.",
+    "moves": [
+      "명령을 끝까지 수행한다.",
+      "몸에 내장된 특별한 도구나 장치를 쓴다."
+    ],
+    "description": "명령에 충실한 금속제 마법 수호자.",
+    "en": {
+      "name": "Iron Golem",
+      "attack_name": "Metal Fists",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Construct",
+        "Forceful"
+      ],
+      "special": "Metal body.",
+      "instinct": "To serve.",
+      "moves": [
+        "Follow orders implacably.",
+        "Use a built-in tool or adaptation."
+      ],
+      "description": "A metal magical guardian that follows its orders without rest or hesitation."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-flesh-golem",
+    "name": "고기 골렘",
+    "hp": 3,
+    "armor": 0,
+    "attack_name": "뒤섞인 발톱과 이빨",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "괴력"
+    ],
+    "special": "여러 시체 조각으로 이루어짐.",
+    "instinct": "살아 있으려 한다.",
+    "moves": [
+      "명령을 따른다.",
+      "몸의 일부를 떼어 따로 움직인다."
+    ],
+    "description": "시체 조각을 꿰매고 마법으로 움직이게 한 값싼 인공 생명.",
+    "en": {
+      "name": "Flesh Golem",
+      "attack_name": "Claws and Teeth",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Forceful"
+      ],
+      "special": "Made from many body parts.",
+      "instinct": "To live.",
+      "moves": [
+        "Follow orders.",
+        "Detach a body part."
+      ],
+      "description": "A crude magical life-form stitched together from stolen body parts."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-kraken",
+    "name": "크라켄",
+    "hp": 20,
+    "armor": 2,
+    "attack_name": "거대 촉수",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 5,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "괴력"
+    ],
+    "special": "수중 생물.",
+    "instinct": "바다를 지배한다.",
+    "moves": [
+      "사람이나 배를 심해로 끌어내린다.",
+      "대상을 촉수로 휘감는다."
+    ],
+    "description": "배조차 휘감아 바다 밑으로 끌고 가는 거대한 지성의 두족류.",
+    "en": {
+      "name": "Kraken",
+      "attack_name": "Giant Tentacles",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Forceful"
+      ],
+      "special": "Aquatic.",
+      "instinct": "To rule the ocean.",
+      "moves": [
+        "Drag a person or ship to a watery grave.",
+        "Wrap a target in massive tentacles."
+      ],
+      "description": "A colossal intelligent sea predator able to drag ships beneath the waves."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-manticore",
+    "name": "만티코어",
+    "hp": 16,
+    "armor": 3,
+    "attack_name": "독침",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물",
+      "파괴적"
+    ],
+    "special": "날개. 공격 관통 1.",
+    "instinct": "죽인다.",
+    "moves": [
+      "독침을 먹인다.",
+      "물건이나 사람을 갈가리 찢는다."
+    ],
+    "description": "사자와 전갈과 용의 날개에 인간의 얼굴을 결합한 잔혹한 인공 괴물.",
+    "en": {
+      "name": "Manticore",
+      "attack_name": "Stinger",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct",
+        "Messy"
+      ],
+      "special": "Wings. Attack Piercing 1.",
+      "instinct": "To kill.",
+      "moves": [
+        "Poison a target.",
+        "Rip something apart."
+      ],
+      "description": "A cruel artificial hybrid of lion, scorpion, dragon, and human traits."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-owlbear",
+    "name": "올빼미곰",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "발톱",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "인공물"
+    ],
+    "special": "",
+    "instinct": "사냥한다.",
+    "moves": [
+      "어둠 속에서 갑자기 덮친다."
+    ],
+    "description": "곰의 몸에 올빼미의 머리와 감각을 합친 포식 실험체.",
+    "en": {
+      "name": "Owlbear",
+      "attack_name": "Claws",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Construct"
+      ],
+      "special": "",
+      "instinct": "To hunt.",
+      "moves": [
+        "Strike from darkness."
+      ],
+      "description": "A bear-bodied predator with owl features and excellent night senses."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-pegasus",
+    "name": "페가수스",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "날카로운 발굽",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "인공물"
+    ],
+    "special": "날개.",
+    "instinct": "누군가를 높이 태운다.",
+    "moves": [
+      "기수를 하늘로 데려간다.",
+      "기수에게 유리한 위치를 제공한다."
+    ],
+    "description": "수정 알에서 태어나 기수와 평생 유대를 맺는 날개 달린 말.",
+    "en": {
+      "name": "Pegasus",
+      "attack_name": "Sharp Hooves",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Construct"
+      ],
+      "special": "Wings.",
+      "instinct": "To carry aloft.",
+      "moves": [
+        "Carry a rider into the air.",
+        "Give its rider an advantage."
+      ],
+      "description": "A winged horse bred by magic, often bonded to a rider for life."
+    }
+  },
+  {
+    "folder": "뒤틀린 실험체",
+    "key": "experiment-xorn",
+    "name": "조른",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "아가리",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "인공물"
+    ],
+    "special": "땅굴을 팜.",
+    "instinct": "먹는다.",
+    "moves": [
+      "돌을 먹어 치운다.",
+      "빛과 열을 한꺼번에 뿜어낸다."
+    ],
+    "description": "돌을 먹고 빛과 열을 내도록 만들어진 드워프계 인공 생물.",
+    "en": {
+      "name": "Xorn",
+      "attack_name": "Maw",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Construct"
+      ],
+      "special": "Burrowing.",
+      "instinct": "To eat.",
+      "moves": [
+        "Consume stone.",
+        "Release a burst of light and heat."
+      ],
+      "description": "A constructed stone-eater that converts rock into light and heat."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-naga",
+    "name": "나가",
+    "hp": 12,
+    "armor": 2,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적",
+      "보물지기",
+      "마법적"
+    ],
+    "special": "",
+    "instinct": "이끈다.",
+    "moves": [
+      "따르다 죽을 명령을 부하에게 내린다.",
+      "옛 마법을 사용한다.",
+      "거래를 제안한다."
+    ],
+    "description": "사람 머리와 뱀 몸을 지닌 야심가로 사교와 마법을 이용한다.",
+    "en": {
+      "name": "Naga",
+      "attack_name": "Bite",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized",
+        "Hoarder",
+        "Magical"
+      ],
+      "special": "",
+      "instinct": "Lead.",
+      "moves": [
+        "Order a follower to obey even unto death.",
+        "Use old magic.",
+        "Offer a bargain."
+      ],
+      "description": "An ambitious being with a human head and serpent body, wielding cult influence and magic."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-magmin",
+    "name": "마그민",
+    "hp": 7,
+    "armor": 4,
+    "attack_name": "불타는 망치",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적",
+      "보물지기"
+    ],
+    "special": "불의 피.",
+    "instinct": "만든다.",
+    "moves": [
+      "교환이나 거래를 제안한다.",
+      "불이나 마법으로 공격한다.",
+      "상대가 딱 필요로 하는 물건을 제시하고 값을 부른다."
+    ],
+    "description": "용암 깊은 곳에서 불과 마법의 물건을 만드는 장인 종족.",
+    "en": {
+      "name": "Magmin",
+      "attack_name": "Burning Hammer",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized",
+        "Hoarder"
+      ],
+      "special": "Blood of fire.",
+      "instinct": "Create.",
+      "moves": [
+        "Offer an exchange or trade.",
+        "Attack with fire or magic.",
+        "Offer exactly what someone needs and name a price."
+      ],
+      "description": "A people of crafters who forge fire and magical goods in the depths of the lava."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-minotaur",
+    "name": "미노타우로스",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "도끼",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼"
+    ],
+    "special": "틀림 없는 방향감각.",
+    "instinct": "가둔다.",
+    "moves": [
+      "상대를 혼란스럽게 만든다.",
+      "길을 잃게 만든다."
+    ],
+    "description": "미로와 지하에서 상대의 방향 감각을 무너뜨리는 황소머리 괴물.",
+    "en": {
+      "name": "Minotaur",
+      "attack_name": "Axe",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large"
+      ],
+      "special": "Unerring sense of direction.",
+      "instinct": "Trap them.",
+      "moves": [
+        "Confuse them.",
+        "Make them lose their way."
+      ],
+      "description": "A bull-headed monster that destroys its prey’s sense of direction in mazes and underground passages."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-salamander",
+    "name": "살라만더",
+    "hp": 7,
+    "armor": 3,
+    "attack_name": "불타는 창",
+    "damage": {
+      "die": "D6",
+      "count": 2,
+      "modifier": 3,
+      "mode": "high"
+    },
+    "range": "한걸음, 몇걸음, 중거리",
+    "tags": [
+      "대집단",
+      "큼",
+      "지능적",
+      "조직적",
+      "이계"
+    ],
+    "special": "땅굴을 판다.",
+    "instinct": "불로 태워 없앤다.",
+    "moves": [
+      "불의 정수를 소환한다.",
+      "속임수를 녹여 없앤다."
+    ],
+    "description": "불과 흑요석을 다루며 다른 세계의 문을 통해 나타나는 뱀꼬리 전사.",
+    "en": {
+      "name": "Salamander",
+      "attack_name": "Burning Spear",
+      "range": "Close, Reach, Near",
+      "tags": [
+        "Horde",
+        "Large",
+        "Intelligent",
+        "Organized",
+        "Planar"
+      ],
+      "special": "Burrow.",
+      "instinct": "Burn it away.",
+      "moves": [
+        "Summon the essence of fire.",
+        "Burn away deception."
+      ],
+      "description": "A serpent-tailed warrior of fire and obsidian that enters through gates from another world."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-aboleth",
+    "name": "아볼레스",
+    "hp": 18,
+    "armor": 0,
+    "attack_name": "촉수",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "소집단",
+      "거대",
+      "지능적"
+    ],
+    "special": "텔레파시.",
+    "instinct": "명령한다.",
+    "moves": [
+      "정신을 침범한다.",
+      "부하들을 시켜 적을 공격한다.",
+      "계략을 실행한다."
+    ],
+    "description": "지하 호수에서 텔레파시로 노예를 지배하는 거대한 물고기 괴물.",
+    "en": {
+      "name": "Aboleth",
+      "attack_name": "Tentacles",
+      "range": "Reach",
+      "tags": [
+        "Group",
+        "Huge",
+        "Intelligent"
+      ],
+      "special": "Telepathy.",
+      "instinct": "Command.",
+      "moves": [
+        "Invade a mind.",
+        "Have servants attack an enemy.",
+        "Put a scheme into motion."
+      ],
+      "description": "A gigantic fish-like horror that rules slaves by telepathy from an underground lake."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-dragon",
+    "name": "용",
+    "hp": 16,
+    "armor": 5,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 5,
+      "mode": "high"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "끔찍함",
+      "조심스러움",
+      "보물지기",
+      "파괴적"
+    ],
+    "special": "원소의 피, 날개. 공격 관통 4.",
+    "instinct": "지배한다.",
+    "moves": [
+      "원소를 뜻대로 조종한다.",
+      "공물을 요구한다.",
+      "미천한 존재들을 업신여기는 행동을 한다."
+    ],
+    "description": "보물과 영역을 지배하며 원소의 힘을 다루는 거대한 용.",
+    "en": {
+      "name": "Dragon",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Terrifying",
+        "Cautious",
+        "Hoarder",
+        "Messy"
+      ],
+      "special": "Elemental blood, wings. Attacks have 4 piercing.",
+      "instinct": "Dominate.",
+      "moves": [
+        "Command the elements at will.",
+        "Demand tribute.",
+        "Show contempt for lesser beings."
+      ],
+      "description": "A mighty dragon that rules treasure and territory and commands elemental power."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-apocalypse-dragon",
+    "name": "종말의 용",
+    "hp": 26,
+    "armor": 5,
+    "attack_name": "깨물기",
+    "damage": {
+      "die": "D12",
+      "count": 2,
+      "modifier": 9,
+      "mode": "high"
+    },
+    "range": "몇걸음",
+    "tags": [
+      "외톨이",
+      "거대",
+      "마법적",
+      "신성",
+      "괴력",
+      "파괴적"
+    ],
+    "special": "두꺼운 금속 껍질, 초자연적 지식, 날개. 공격 관통 4.",
+    "instinct": "세계를 끝낸다.",
+    "moves": [
+      "대재난을 일으킨다.",
+      "원소를 뿜어낸다.",
+      "미래를 완벽하게 내다보고 행동한다."
+    ],
+    "description": "세계의 심장에서 깨어나 종말을 가져온다고 전해지는 전설적인 용.",
+    "en": {
+      "name": "Apocalypse Dragon",
+      "attack_name": "Bite",
+      "range": "Reach",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Magical",
+        "Divine",
+        "Forceful",
+        "Messy"
+      ],
+      "special": "Thick metal hide, supernatural knowledge, wings. Attacks have 4 piercing.",
+      "instinct": "End the world.",
+      "moves": [
+        "Unleash a catastrophe.",
+        "Breathe forth an element.",
+        "Act with perfect foresight."
+      ],
+      "description": "A legendary dragon said to awaken at the heart of the world and bring the apocalypse."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-drow-assassin",
+    "name": "지저엘프 자객",
+    "hp": 6,
+    "armor": 1,
+    "attack_name": "독 묻은 칼",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "공격 관통 1.",
+    "instinct": "지상 종족을 해친다.",
+    "moves": [
+      "독을 투여한다.",
+      "고대의 주문을 사용한다.",
+      "원군을 부른다."
+    ],
+    "description": "독과 은밀한 침투로 지상 종족을 노리는 지저엘프 자객.",
+    "en": {
+      "name": "Deep Elf Assassin",
+      "attack_name": "Poisoned Blade",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Attacks have 1 piercing.",
+      "instinct": "Harm the surface races.",
+      "moves": [
+        "Administer poison.",
+        "Use an ancient spell.",
+        "Call for reinforcements."
+      ],
+      "description": "A deep elf assassin who hunts surface folk with poison and stealthy infiltration."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-drow-swordmaster",
+    "name": "지저엘프 검호",
+    "hp": 6,
+    "armor": 2,
+    "attack_name": "가시 돋친 칼",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 2,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "공격 관통 1.",
+    "instinct": "불신자들을 응징한다.",
+    "moves": [
+      "이루 말할 수 없는 고통을 가한다.",
+      "어둠을 유리하게 이용한다."
+    ],
+    "description": "잔혹하면서도 우아한 검술을 쓰는 지저엘프 정예 검사.",
+    "en": {
+      "name": "Deep Elf Swordmaster",
+      "attack_name": "Barbed Blade",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Attacks have 1 piercing.",
+      "instinct": "Punish unbelievers.",
+      "moves": [
+        "Inflict unspeakable pain.",
+        "Use darkness to your advantage."
+      ],
+      "description": "An elite deep elf swordsman whose style is both graceful and cruel."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-drow-priest",
+    "name": "지저엘프 사제",
+    "hp": 14,
+    "armor": 0,
+    "attack_name": "천벌",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 2,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "신성",
+      "지능적",
+      "조직적"
+    ],
+    "special": "신과 밀접한 관계.",
+    "instinct": "신의 벌을 내린다.",
+    "moves": [
+      "악의와 혐오의 주문을 시전한다.",
+      "지저엘프들을 선동한다.",
+      "신의 계시를 드러낸다."
+    ],
+    "description": "지하의 신들과 언약을 맺고 신성한 힘을 쓰는 지저엘프 사제.",
+    "en": {
+      "name": "Deep Elf Priest",
+      "attack_name": "Harm",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Divine",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "Close connection to a deity.",
+      "instinct": "Visit divine punishment.",
+      "moves": [
+        "Cast a spell of malice and hate.",
+        "Rouse the deep elves.",
+        "Reveal divine revelation."
+      ],
+      "description": "A deep elf priest bound by covenant to the gods below and wielding divine power."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-chuul",
+    "name": "추울",
+    "hp": 10,
+    "armor": 4,
+    "attack_name": "집게발",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "조심스러움",
+      "파괴적"
+    ],
+    "special": "수륙양서. 공격 관통 3.",
+    "instinct": "자른다.",
+    "moves": [
+      "거대한 집게발로 무언가를 붙잡아 자른다.",
+      "물 속으로 후퇴한다."
+    ],
+    "description": "사람과 가재가 섞인 듯한 수륙양서 괴물.",
+    "en": {
+      "name": "Chuul",
+      "attack_name": "Claw",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Cautious",
+        "Messy"
+      ],
+      "special": "Amphibious. Attacks have 3 piercing.",
+      "instinct": "Cut.",
+      "moves": [
+        "Seize something in its massive claws and cut it apart.",
+        "Retreat into the water."
+      ],
+      "description": "An amphibious horror resembling a cross between a human and a crayfish."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-chaos-spawn",
+    "name": "혼돈의 종자",
+    "hp": 19,
+    "armor": 1,
+    "attack_name": "혼돈의 손길",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "부정형"
+    ],
+    "special": "혼돈의 형상.",
+    "instinct": "기존의 질서를 무너뜨린다.",
+    "moves": [
+      "현실을 고쳐 쓴다.",
+      "혼돈을 쏟아낸다."
+    ],
+    "description": "혼돈의 신에게 자기 형체마저 내어준 변이된 사교도.",
+    "en": {
+      "name": "Chaos Spawn",
+      "attack_name": "Touch of Chaos",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Amorphous"
+      ],
+      "special": "Form of chaos.",
+      "instinct": "Overthrow the established order.",
+      "moves": [
+        "Rewrite reality.",
+        "Pour forth chaos."
+      ],
+      "description": "A warped cultist who surrendered even their own form to a god of chaos."
+    }
+  },
+  {
+    "folder": "깊고도 깊은 곳",
+    "key": "deep-gray-render",
+    "name": "회색 갈퀴발톱",
+    "hp": 16,
+    "armor": 1,
+    "attack_name": "갈퀴발톱과 이빨",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "괴력"
+    ],
+    "special": "공격 관통 3.",
+    "instinct": "주인을 섬긴다.",
+    "moves": [
+      "잡아 뜯고 찢어발긴다."
+    ],
+    "description": "강력한 갈퀴와 이빨을 지녔지만 한 주인에게 충성하는 파괴적인 괴수.",
+    "en": {
+      "name": "Gray Render",
+      "attack_name": "Rending Claws and Teeth",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Forceful"
+      ],
+      "special": "Attacks have 3 piercing.",
+      "instinct": "Serve its master.",
+      "moves": [
+        "Seize, tear, and rend."
+      ],
+      "description": "A destructive beast with mighty claws and teeth, fiercely loyal to a single master."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-barbed-devil",
+    "name": "가시 악마",
+    "hp": 16,
+    "armor": 3,
+    "attack_name": "가시",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 3,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "큼",
+      "이계",
+      "끔찍함",
+      "파괴적"
+    ],
+    "special": "수많은 가시들. 공격 관통 3.",
+    "instinct": "고통을 퍼뜨린다.",
+    "moves": [],
+    "description": "온몸에 가시가 돋은 이계의 악마.",
+    "en": {
+      "name": "Barbed Devil",
+      "attack_name": "Thorns",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Large",
+        "Planar",
+        "Terrifying",
+        "Messy"
+      ],
+      "special": "Countless barbs. Attacks have 3 piercing.",
+      "instinct": "Spread pain.",
+      "moves": [],
+      "description": "A planar demon covered from head to toe in barbs."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-angel",
+    "name": "천사",
+    "hp": 18,
+    "armor": 4,
+    "attack_name": "화염의 검",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "끔찍함",
+      "신성",
+      "지능적",
+      "조직적",
+      "괴력",
+      "장갑 무시"
+    ],
+    "special": "날개. 장갑 무시.",
+    "instinct": "신의 뜻을 전한다.",
+    "moves": [
+      "환상과 예언을 전한다.",
+      "필멸자들을 행동하게 만든다.",
+      "죄와 불의를 드러낸다."
+    ],
+    "description": "신의 뜻을 수행하기 위해 세상에 내려오는 무시무시한 사자.",
+    "en": {
+      "name": "Angel",
+      "attack_name": "Sword of Flames",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Terrifying",
+        "Divine",
+        "Intelligent",
+        "Organized",
+        "Forceful",
+        "Ignores Armor"
+      ],
+      "special": "Wings.",
+      "instinct": "To share divine will.",
+      "moves": [
+        "Deliver visions and prophecy.",
+        "Stir mortals to action.",
+        "Expose sin and injustice."
+      ],
+      "description": "A terrifying divine messenger sent to impose or reveal a god’s will."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-chain-devil",
+    "name": "사슬 악마",
+    "hp": 12,
+    "armor": 3,
+    "attack_name": "짓누르기",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "외톨이",
+      "이계",
+      "장갑 무시"
+    ],
+    "special": "장갑 무시.",
+    "instinct": "붙잡아 간다.",
+    "moves": [
+      "대상을 사로잡는다.",
+      "원래 있던 차원으로 돌아간다.",
+      "포로를 고통스럽게 심문한다."
+    ],
+    "description": "사슬과 구속구의 모습으로 나타나 희생자를 다른 차원으로 끌고 가는 악마.",
+    "en": {
+      "name": "Chain Devil",
+      "attack_name": "Crush",
+      "range": "Close, Reach",
+      "tags": [
+        "Solitary",
+        "Planar",
+        "Ignores Armor"
+      ],
+      "special": "",
+      "instinct": "To capture.",
+      "moves": [
+        "Take a captive.",
+        "Return to its home plane.",
+        "Torment a prisoner."
+      ],
+      "description": "A binding devil that wraps victims in chains and drags them away to torment."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-concept-elemental",
+    "name": "관념의 정령",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "이계",
+      "부정형"
+    ],
+    "special": "이상적인 관념의 형상.",
+    "instinct": "자신의 관념을 완전하게 만든다.",
+    "moves": [
+      "자신이 상징하는 관념을 가장 순수한 형태로 현실에 드러낸다."
+    ],
+    "description": "불이나 물이 아니라 부, 공포, 살인 같은 추상 관념이 정령이 된 존재.",
+    "en": {
+      "name": "Concept Elemental",
+      "attack_name": "",
+      "range": "",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Planar",
+        "Amorphous"
+      ],
+      "special": "Ideal form of a concept.",
+      "instinct": "To perfect its concept.",
+      "moves": [
+        "Manifest its concept in an unnervingly pure form."
+      ],
+      "description": "An elemental embodiment of an abstract idea rather than a material element."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-corrupter",
+    "name": "유혹의 악마",
+    "hp": 12,
+    "armor": 0,
+    "attack_name": "숨긴 단검",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "음흉함",
+      "이계",
+      "보물지기"
+    ],
+    "special": "",
+    "instinct": "거래한다.",
+    "moves": [
+      "끔찍한 대가가 따르는 계약을 제시한다.",
+      "이계의 금고에서 거래 수단을 찾아온다.",
+      "자신의 힘을 과시한다."
+    ],
+    "description": "소원을 들어주는 척 영혼과 약속을 받아내려는 교활한 악마.",
+    "en": {
+      "name": "Corrupter",
+      "attack_name": "Secret Dagger",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Devious",
+        "Planar",
+        "Hoarder"
+      ],
+      "special": "",
+      "instinct": "To bargain.",
+      "moves": [
+        "Offer a bargain with terrible consequences.",
+        "Produce a tempting bargaining chip from hellish vaults.",
+        "Make a show of power."
+      ],
+      "description": "A silver-tongued fiend that offers impossible bargains for a dreadful price."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-djinn",
+    "name": "지니",
+    "hp": 14,
+    "armor": 4,
+    "attack_name": "불꽃",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "마법적",
+      "장갑 무시"
+    ],
+    "special": "불로 이루어짐. 장갑 무시.",
+    "instinct": "영원히 불탄다.",
+    "moves": [
+      "대가를 받고 힘을 빌려준다.",
+      "황동 도시의 세력을 부른다."
+    ],
+    "description": "불의 몸과 오래된 계약 문화를 지닌 강력한 이계 존재.",
+    "en": {
+      "name": "Djinn",
+      "attack_name": "Flame",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Magical",
+        "Ignores Armor"
+      ],
+      "special": "Made of flame.",
+      "instinct": "To burn eternally.",
+      "moves": [
+        "Grant power for a price.",
+        "Call forces from the City of Brass."
+      ],
+      "description": "A powerful being of living flame that trades favors and calls on the City of Brass."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-hell-hound",
+    "name": "지옥개",
+    "hp": 10,
+    "armor": 1,
+    "attack_name": "불타는 이빨",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "소집단",
+      "이계",
+      "조직적"
+    ],
+    "special": "그림자 가죽.",
+    "instinct": "끝까지 추적한다.",
+    "moves": [
+      "장애물을 무시하고 추적한다.",
+      "불을 내뿜는다.",
+      "표적에게 지옥의 세력을 불러들인다."
+    ],
+    "description": "불꽃과 그림자로 이루어진 사냥개 무리. 계약을 어긴 자를 끝까지 추적한다.",
+    "en": {
+      "name": "Hell Hound",
+      "attack_name": "Fiery Bite",
+      "range": "Close",
+      "tags": [
+        "Group",
+        "Planar",
+        "Organized"
+      ],
+      "special": "Hide of shadow.",
+      "instinct": "To pursue.",
+      "moves": [
+        "Pursue through obstacles.",
+        "Breathe fire.",
+        "Call hellish forces against the quarry."
+      ],
+      "description": "A pack of shadow-and-flame hounds that never stop pursuing their assigned quarry."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-imp",
+    "name": "임프",
+    "hp": 7,
+    "armor": 1,
+    "attack_name": "불꽃 분출",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 중거리, 장거리",
+    "tags": [
+      "대집단",
+      "이계",
+      "지능적",
+      "조직적",
+      "장갑 무시"
+    ],
+    "special": "장갑 무시.",
+    "instinct": "괴롭힌다.",
+    "moves": [
+      "본 지식을 지옥에 보고한다.",
+      "사소하지만 위험한 장난을 친다."
+    ],
+    "description": "초보 소환사가 흔히 묶어 쓰는 작고 성가신 감시 악마.",
+    "en": {
+      "name": "Imp",
+      "attack_name": "Flame Gout",
+      "range": "Close, Near, Far",
+      "tags": [
+        "Horde",
+        "Planar",
+        "Intelligent",
+        "Organized",
+        "Ignores Armor"
+      ],
+      "special": "",
+      "instinct": "To harass.",
+      "moves": [
+        "Report information back to hell.",
+        "Cause troublesome mischief."
+      ],
+      "description": "A small observer-demon often bound as a servant, spy, or nuisance."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-inevitable",
+    "name": "불가피",
+    "hp": 21,
+    "armor": 5,
+    "attack_name": "망치",
+    "damage": {
+      "die": "D10",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "큼",
+      "마법적",
+      "조심스러움",
+      "부정형",
+      "이계"
+    ],
+    "special": "질서 그 자체로 이루어짐.",
+    "instinct": "질서를 보존한다.",
+    "moves": [
+      "주문이나 지속 효과를 끝낸다.",
+      "자연이나 사회의 법칙을 강제로 집행한다.",
+      "운명의 일부를 보여준다."
+    ],
+    "description": "운명과 현실의 질서가 무너질 때 나타나는 거대한 집행자.",
+    "en": {
+      "name": "Inevitable",
+      "attack_name": "Hammer",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Large",
+        "Magical",
+        "Cautious",
+        "Amorphous",
+        "Planar"
+      ],
+      "special": "Made of Order.",
+      "instinct": "To preserve order.",
+      "moves": [
+        "End a spell or effect.",
+        "Enforce a law of nature or society.",
+        "Reveal a glimpse of destiny."
+      ],
+      "description": "A massive planar enforcer that appears when magic or calamity threatens the order of reality."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-larvae",
+    "name": "인면충",
+    "hp": 10,
+    "armor": 0,
+    "attack_name": "점액",
+    "damage": {
+      "die": "D4",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "음흉함",
+      "이계",
+      "지능적"
+    ],
+    "special": "",
+    "instinct": "괴로워한다.",
+    "moves": [
+      "절망을 퍼뜨린다.",
+      "살려 달라고 애원한다.",
+      "주변의 사악한 존재를 끌어들인다."
+    ],
+    "description": "사람 얼굴을 한 구더기 같은 이계의 비참한 영혼 찌꺼기.",
+    "en": {
+      "name": "Larvae",
+      "attack_name": "Slime",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Devious",
+        "Planar",
+        "Intelligent"
+      ],
+      "special": "",
+      "instinct": "To suffer.",
+      "moves": [
+        "Fill others with despair.",
+        "Beg for mercy.",
+        "Draw the attention of evil powers."
+      ],
+      "description": "Maggot-like planar wretches bearing human faces and spreading misery."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-nightmare",
+    "name": "나이트메어",
+    "hp": 7,
+    "armor": 4,
+    "attack_name": "짓밟기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 1,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "큼",
+      "마법적",
+      "끔찍함",
+      "이계"
+    ],
+    "special": "불꽃과 그림자.",
+    "instinct": "날뛴다.",
+    "moves": [
+      "기수를 지옥불로 감싼다.",
+      "적을 몰아붙이며 쫓아낸다."
+    ],
+    "description": "기름 같은 검은 털과 불타는 갈기를 지닌 지옥의 군마.",
+    "en": {
+      "name": "Nightmare",
+      "attack_name": "Trample",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Large",
+        "Magical",
+        "Terrifying",
+        "Planar"
+      ],
+      "special": "Flame and shadow.",
+      "instinct": "To ride rampant.",
+      "moves": [
+        "Sheathe a rider in hellish flame.",
+        "Drive enemies before it."
+      ],
+      "description": "A hellish warhorse of oily shadow and tormented flame."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-quasit",
+    "name": "콰시트",
+    "hp": 7,
+    "armor": 2,
+    "attack_name": "지옥 무기",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "이계"
+    ],
+    "special": "형태를 바꿈.",
+    "instinct": "주인을 섬긴다.",
+    "moves": [
+      "몸을 사리지 않고 공격한다.",
+      "상대에게 고통을 준다."
+    ],
+    "description": "여러 흉측한 형태로 변해 마법사의 하수인이 되는 하급 악마.",
+    "en": {
+      "name": "Quasit",
+      "attack_name": "Hellish Weaponry",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Planar"
+      ],
+      "special": "Adaptable form.",
+      "instinct": "To serve its master.",
+      "moves": [
+        "Attack with abandon.",
+        "Inflict pain."
+      ],
+      "description": "A minor demon with a mutable form, commonly bound as a warlock’s servant."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-tarrasque",
+    "name": "타라스크",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [
+      "외톨이",
+      "거대",
+      "이계"
+    ],
+    "special": "거의 파괴 불가능.",
+    "instinct": "먹어치운다.",
+    "moves": [
+      "사람이나 무리나 장소 전체를 삼킨다.",
+      "오래전에 삼킨 장소의 잔해를 토해낸다."
+    ],
+    "description": "도시와 배까지 먹어치운다고 전해지는 거의 죽일 수 없는 종말급 괴수.",
+    "en": {
+      "name": "The Tarrasque",
+      "attack_name": "",
+      "range": "",
+      "tags": [
+        "Solitary",
+        "Huge",
+        "Planar"
+      ],
+      "special": "Impervious.",
+      "instinct": "To consume.",
+      "moves": [
+        "Swallow a person, group, or place whole.",
+        "Vomits up remnants of places consumed long ago."
+      ],
+      "description": "A legendary nearly indestructible world-eater said to swallow cities and ships."
+    }
+  },
+  {
+    "folder": "이계의 존재",
+    "key": "planar-word-demon",
+    "name": "언령",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [
+      "외톨이",
+      "이계",
+      "마법적"
+    ],
+    "special": "",
+    "instinct": "자신의 단어를 퍼뜨린다.",
+    "moves": [
+      "자신이 붙든 단어와 관련된 마법을 일으킨다.",
+      "그 단어의 의미가 주변에 넘치게 만든다."
+    ],
+    "description": "반복된 말과 강한 의미가 우연히 소환해 버린 단어의 악마.",
+    "en": {
+      "name": "Word Demon",
+      "attack_name": "",
+      "range": "",
+      "tags": [
+        "Solitary",
+        "Planar",
+        "Magical"
+      ],
+      "special": "",
+      "instinct": "To further its word.",
+      "moves": [
+        "Cast magic tied to its chosen word.",
+        "Cause the meaning of that word to proliferate."
+      ],
+      "description": "A capricious demon accidentally summoned from the power and repetition of a particular word."
+    }
+  },
+  {
+    "key": "people-guard",
+    "name": "경비병",
+    "hp": 6,
+    "armor": 1,
+    "attack_name": "창",
+    "damage": {
+      "die": "D8",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "소집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "명령에 따른다.",
+    "moves": [
+      "법을 지킨다.",
+      "이익을 본다."
+    ],
+    "description": "마을과 도시의 질서를 지키는 영주의 경비병.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Guardsman",
+      "attack_name": "Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Group",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Follow orders.",
+      "moves": [
+        "Uphold the law.",
+        "Profit from the situation."
+      ],
+      "description": "A lord’s guard charged with keeping order in towns and cities."
+    }
+  },
+  {
+    "key": "people-jester",
+    "name": "궁중광대",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "놀린다.",
+    "moves": [
+      "비리와 불의를 공개한다.",
+      "장난을 친다."
+    ],
+    "description": "권력자 앞에서도 진실을 농담과 풍자로 말하는 광대.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Fool",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Mock them.",
+      "moves": [
+        "Expose corruption and injustice.",
+        "Play a prank."
+      ],
+      "description": "A jester who speaks truth through jokes and satire, even before the powerful."
+    }
+  },
+  {
+    "key": "people-knight",
+    "name": "기사",
+    "hp": 12,
+    "armor": 4,
+    "attack_name": "검",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적",
+      "조심스러움"
+    ],
+    "special": "",
+    "instinct": "원칙에 따라 산다.",
+    "moves": [
+      "양심에 따른다.",
+      "병사들을 이끌고 싸움에 뛰어든다."
+    ],
+    "description": "원칙과 봉사의 상징이자 무장한 귀족 전사.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Knight",
+      "attack_name": "Sword",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized",
+        "Cautious"
+      ],
+      "special": "",
+      "instinct": "Live by principle.",
+      "moves": [
+        "Follow your conscience.",
+        "Lead soldiers into battle."
+      ],
+      "description": "An armed noble warrior who embodies principle and service."
+    }
+  },
+  {
+    "key": "people-noble",
+    "name": "귀족",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "다스린다.",
+    "moves": [
+      "명령을 내린다.",
+      "상금을 내건다."
+    ],
+    "description": "재산과 권력을 바탕으로 사람과 영지를 지배하는 자.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Noble",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Rule.",
+      "moves": [
+        "Give orders.",
+        "Put a bounty on someone."
+      ],
+      "description": "A ruler who commands people and lands through wealth and power."
+    }
+  },
+  {
+    "key": "people-farmer",
+    "name": "농부",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "하루하루 살아간다.",
+    "moves": [
+      "도움을 구한다.",
+      "작은 감사의 표시를 제시한다."
+    ],
+    "description": "땅을 일구며 공동체의 삶을 떠받치는 평범한 사람.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Peasant",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Get through each day.",
+      "moves": [
+        "Ask for help.",
+        "Offer a small token of thanks."
+      ],
+      "description": "An ordinary person who works the land and sustains the life of the community."
+    }
+  },
+  {
+    "key": "people-high-priest",
+    "name": "대사제",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "이끈다.",
+    "moves": [
+      "율법을 정한다.",
+      "신에게 받은 비밀을 드러낸다.",
+      "교단의 일을 맡긴다."
+    ],
+    "description": "교단의 높은 자리에 올라 신의 뜻을 전하는 지도자.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "High Priest",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Lead.",
+      "moves": [
+        "Lay down the law.",
+        "Reveal a secret granted by the deity.",
+        "Entrust someone with the work of the faith."
+      ],
+      "description": "A leader high in the faith who speaks the will of the deity."
+    }
+  },
+  {
+    "key": "people-adventurer",
+    "name": "모험가",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "검",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적"
+    ],
+    "special": "끝없는 열의.",
+    "instinct": "모험을 떠난다.",
+    "moves": [
+      "헛수고나 헛걸음을 한다.",
+      "생각 없이 행동한다.",
+      "옛 모험 이야기를 한다."
+    ],
+    "description": "위험과 보물을 찾아다니는 또 다른 모험가 무리.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Adventurer",
+      "attack_name": "Sword",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent"
+      ],
+      "special": "Endless zeal.",
+      "instinct": "Seek adventure.",
+      "moves": [
+        "Waste time or effort on a fruitless errand.",
+        "Act without thinking.",
+        "Tell stories of old adventures."
+      ],
+      "description": "Another band of adventurers searching for danger and treasure."
+    }
+  },
+  {
+    "key": "people-rebel",
+    "name": "반도",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "도끼",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "기존 질서를 무너뜨린다.",
+    "moves": [
+      "대의를 위해 죽는다.",
+      "남들에게 감동을 준다."
+    ],
+    "description": "도시의 틈에서 기존 질서를 뒤엎으려는 조직.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Rebel",
+      "attack_name": "Axe",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Overthrow the established order.",
+      "moves": [
+        "Die for the cause.",
+        "Inspire others."
+      ],
+      "description": "An organization in the cracks of the city that seeks to overturn the existing order."
+    }
+  },
+  {
+    "key": "people-inventor",
+    "name": "발명가",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "만든다.",
+    "moves": [
+      "특이한 물건을 팔려 한다.",
+      "먼 나라의 모험거리를 들려준다."
+    ],
+    "description": "기묘한 물건과 이야기를 싣고 떠도는 장인.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Tinkerer",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Create.",
+      "moves": [
+        "Try to sell an unusual item.",
+        "Tell of adventures in distant lands."
+      ],
+      "description": "A wandering craftsperson carrying strange wares and stranger stories."
+    }
+  },
+  {
+    "key": "people-soldier",
+    "name": "병사",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "창",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음, 몇걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "싸운다.",
+    "moves": [
+      "전투를 향해 진군한다.",
+      "한 덩어리가 되어 싸운다."
+    ],
+    "description": "명령과 생존 사이에서 전쟁터를 버티는 보통 병사.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Soldier",
+      "attack_name": "Spear",
+      "range": "Close, Reach",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Fight.",
+      "moves": [
+        "March into battle.",
+        "Fight as a single unit."
+      ],
+      "description": "An ordinary soldier enduring the battlefield between orders and survival."
+    }
+  },
+  {
+    "key": "people-bandit",
+    "name": "산적",
+    "hp": 3,
+    "armor": 1,
+    "attack_name": "비수",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "한걸음",
+    "tags": [
+      "대집단",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "빼앗는다.",
+    "moves": [
+      "무언가를 훔친다.",
+      "공물을 요구한다."
+    ],
+    "description": "궁핍과 탐욕 속에서 남의 것을 빼앗는 무리.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Bandit",
+      "attack_name": "Dirk",
+      "range": "Close",
+      "tags": [
+        "Horde",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Take what belongs to others.",
+      "moves": [
+        "Steal something.",
+        "Demand tribute."
+      ],
+      "description": "A band driven by want and greed to take what belongs to others."
+    }
+  },
+  {
+    "key": "people-bandit-leader",
+    "name": "산적 두목",
+    "hp": 12,
+    "armor": 1,
+    "attack_name": "든든한 단도",
+    "damage": {
+      "die": "D10",
+      "count": 2,
+      "modifier": 0,
+      "mode": "high"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "지능적",
+      "조직적"
+    ],
+    "special": "",
+    "instinct": "이끈다.",
+    "moves": [
+      "요구한다.",
+      "협박하고 공갈한다.",
+      "기득권을 무너뜨린다."
+    ],
+    "description": "산적들을 통솔하며 공포와 보상으로 지배하는 우두머리.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Bandit King",
+      "attack_name": "Sturdy Dagger",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Intelligent",
+        "Organized"
+      ],
+      "special": "",
+      "instinct": "Lead.",
+      "moves": [
+        "Make demands.",
+        "Threaten and extort.",
+        "Overthrow the entrenched powers."
+      ],
+      "description": "A bandit chief who rules through fear and reward."
+    }
+  },
+  {
+    "key": "people-merchant",
+    "name": "상인",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "이익을 낸다.",
+    "moves": [
+      "동업을 제안한다.",
+      "계약을 제안한다."
+    ],
+    "description": "물건과 정보를 돈으로 바꾸는 거래의 전문가.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Merchant",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Turn a profit.",
+      "moves": [
+        "Propose a partnership.",
+        "Offer a contract."
+      ],
+      "description": "An expert at turning goods and information into coin."
+    }
+  },
+  {
+    "key": "people-wildling",
+    "name": "야인",
+    "hp": 6,
+    "armor": 1,
+    "attack_name": "낡은 활",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "중거리, 장거리",
+    "tags": [
+      "소집단",
+      "지능적"
+    ],
+    "special": "",
+    "instinct": "생존한다.",
+    "moves": [
+      "짐승을 죽인다.",
+      "산야의 소식을 전한다."
+    ],
+    "description": "문명보다 자연에 가까운 삶을 사는 사냥꾼.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Hunter",
+      "attack_name": "Worn Bow",
+      "range": "Near, Far",
+      "tags": [
+        "Group",
+        "Intelligent"
+      ],
+      "special": "",
+      "instinct": "Survive.",
+      "moves": [
+        "Kill a beast.",
+        "Bring news from the wilds."
+      ],
+      "description": "A hunter who lives closer to the wild than to civilization."
+    }
+  },
+  {
+    "key": "people-hedge-wizard",
+    "name": "잡마술사",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [
+      "마법적"
+    ],
+    "special": "수치 없는 인물.",
+    "instinct": "배운다.",
+    "moves": [
+      "돈을 받고 어설픈 주문을 건다.",
+      "주제에 맞지 않는 거래를 한다."
+    ],
+    "description": "몇 가지 술법으로 생계를 꾸리는 떠돌이 마술사.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Hedge Wizard",
+      "attack_name": "",
+      "range": "",
+      "tags": [
+        "Magical"
+      ],
+      "special": "No numeric combat stats.",
+      "instinct": "Learn.",
+      "moves": [
+        "Cast a dubious spell for coin.",
+        "Offer a strange or inappropriate bargain."
+      ],
+      "description": "A wandering hedge wizard who makes a living with a handful of tricks and spells."
+    }
+  },
+  {
+    "key": "people-spy",
+    "name": "첩자",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "침투한다.",
+    "moves": [
+      "사실을 보고한다.",
+      "배신한다."
+    ],
+    "description": "정체를 숨기고 비밀을 모아 주인에게 전달하는 자.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Spy",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Infiltrate.",
+      "moves": [
+        "Report the facts.",
+        "Betray."
+      ],
+      "description": "An infiltrator who hides their identity, gathers secrets, and carries them back to a master."
+    }
+  },
+  {
+    "key": "people-acolyte",
+    "name": "하급 사제",
+    "hp": 0,
+    "armor": 0,
+    "attack_name": "",
+    "damage": {
+      "die": "D6",
+      "count": 1,
+      "modifier": 0,
+      "mode": "normal"
+    },
+    "range": "",
+    "tags": [],
+    "special": "수치 없는 인물.",
+    "instinct": "교단을 섬긴다.",
+    "moves": [
+      "교리에 따른다.",
+      "신의 뜻에 따를 보상을 설파한다."
+    ],
+    "description": "교단의 일상을 떠받치며 신앙을 전하는 낮은 계급의 사제.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": true,
+    "en": {
+      "name": "Acolyte",
+      "attack_name": "",
+      "range": "",
+      "tags": [],
+      "special": "No numeric combat stats.",
+      "instinct": "Serve the cult.",
+      "moves": [
+        "Follow doctrine.",
+        "Preach the rewards of following the deity’s will."
+      ],
+      "description": "A low-ranking priest who sustains the daily life of the faith and spreads its teachings."
+    }
+  },
+  {
+    "key": "people-halfling-thief",
+    "name": "하플링 도둑",
+    "hp": 12,
+    "armor": 1,
+    "attack_name": "단검",
+    "damage": {
+      "die": "D8",
+      "count": 2,
+      "modifier": 0,
+      "mode": "low"
+    },
+    "range": "한걸음",
+    "tags": [
+      "외톨이",
+      "작음",
+      "지능적",
+      "은밀",
+      "음흉함"
+    ],
+    "special": "",
+    "instinct": "훔친 돈으로 호사스레 산다.",
+    "moves": [
+      "훔친다.",
+      "호의적인 척한다."
+    ],
+    "description": "작은 체구와 친근한 인상을 이용해 물건을 훔치는 도둑.",
+    "folder": "사람들",
+    "source_url": "https://sites.google.com/view/dwtemporary/%EA%B4%B4%EB%AC%BC/%EC%82%AC%EB%9E%8C%EB%93%A4",
+    "statless": false,
+    "en": {
+      "name": "Halfling Thief",
+      "attack_name": "Dagger",
+      "range": "Close",
+      "tags": [
+        "Solitary",
+        "Small",
+        "Intelligent",
+        "Stealthy",
+        "Devious"
+      ],
+      "special": "",
+      "instinct": "Live lavishly on stolen coin.",
+      "moves": [
+        "Steal.",
+        "Pretend to be friendly."
+      ],
+      "description": "A thief who uses a small frame and friendly manner to steal things."
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DWPack expansions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uid",
+      "name",
+      "gm_condition",
+      "public_intro",
+      "data"
+    ],
+    "properties": {
+      "uid": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "gm_condition": {
+        "type": "string"
+      },
+      "public_intro": {
+        "type": "string"
+      },
+      "sort_order": {
+        "type": "integer"
+      },
+      "data": {
+        "type": "object"
+      }
+    },
+    "additionalProperties": false
+  }
+}

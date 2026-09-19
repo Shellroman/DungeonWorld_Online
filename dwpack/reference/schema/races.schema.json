@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DWPack races",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uid",
+      "name",
+      "data"
+    ],
+    "properties": {
+      "uid": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "sort_order": {
+        "type": "integer"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "per_class": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "enabled_classes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "spell_effects": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "kind"
+                ],
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "cross_class_access",
+                      "level_reduce",
+                      "grant_unclassified"
+                    ]
+                  },
+                  "source_class": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 10
+                  },
+                  "spell_uid": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 128,
+                    "pattern": "^[A-Za-z0-9._:-]+$"
+                  },
+                  "amount": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 99
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "additionalProperties": false
+  }
+}
